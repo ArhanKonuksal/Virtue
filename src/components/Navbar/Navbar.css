@@ -1,63 +1,82 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
     position: fixed;
     width: 100%;
-    height: 90px;
-    z-index: 10;
-}
-.header-bg {
-    background-color: rgba(0, 0, 0, 0.85);
-    transition: 0.5s;
+    height: 80px;
 }
 
-.nav-menu {
-    display: flex;
+.logo {
+    flex: 1; 
+    text-align: center;
 }
 
-.nav-menu li {
-    padding: 0 1rem;
-}
-
-.nav-menu li a {
-    font-size: 1.2rem;
-    font-weight: 500;
+.logo img {
+    max-height: 70px; 
 }
 
 .hamburger {
+    cursor: pointer;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.nav-menu {
     display: none;
+    list-style: none;
+}
+
+.nav-menu-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-menu-list li {
+    margin-right: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-menu-list li:last-child {
+    margin-right: 0; 
+}
+
+.nav-menu-list li a {
+    font-size: 19.2px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff; 
+}
+
+.nav-menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.85); 
+}
+
+.language-button button {
+    padding-right: 32px;
+    padding-bottom: 13px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.language-button img {
+    height: 33px;
 }
 
 @media screen and (max-width: 1040px) {
-    .nav-menu {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background: rgba(0, 0, 0.9);
-    position: absolute;
-    top: 0;
-    left: -100%;
-    z-index: -3;
-    transition: 0.2s;
-    }
-
-    .nav-menu li  {
-    padding: 1rem 0;
-    }
-
-    .nav-menu li a {
-    font-size: 2rem;
-    }
-
-    .nav-menu.active{
-    left: 0;
-    }
-
     .hamburger {
-        display: block;
+        display: initial;
+    }
+
+    .nav-menu {
+        display: none;
     }
 }
