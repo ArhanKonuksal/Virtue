@@ -47,6 +47,7 @@
 .footer-follow-us {
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
 .footer-follow-us h1 {
