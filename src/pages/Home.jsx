@@ -1,17 +1,15 @@
 import React from 'react'
 import Footer from "../components/Footer/Footer"
 import Navbar from "../components/Navbar/Navbar"
-import MainPhoto from "../assets/Screenshot 2024-05-06 at 10.49 1.png"
-import OurClients from "../components/Our Clients/OurClients"
-import "../styles/home.css"
+import Hero from "../components/Hero/Hero"
+import HomePhoto from "../assets/Homepage.png"
 
 const Home = () => {
   return (
   <>
   <div>
     <Navbar />
-      <img className="image" alt="Screenshot" src={MainPhoto} />
-    <OurClients />
+    <Hero cName="hero-mid" heroImg={HomePhoto}/>
     <Footer />
     </div>
   </>
