@@ -50,3 +50,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+/* değişecek illaki ama temel dursun */
