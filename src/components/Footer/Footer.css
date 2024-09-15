@@ -11,21 +11,24 @@
   flex-wrap: wrap;
 }
 
-.footer-left, .footer-middle, .footer-right {
+.footer-left,
+.footer-middle,
+.footer-right {
   flex-basis: 20%;
   margin-bottom: 20px;
 }
 
 .footer-logo {
   margin-bottom: 10px;
-
 }
 
-.footer-left p, .footer-middle p {
+.footer-left p,
+.footer-middle p {
   margin: 5px 0;
 }
 
-.footer-right h1, .footer-middle h1 {
+.footer-right h1,
+.footer-middle h1 {
   font-size: 18px;
   margin-bottom: 10px;
 }
@@ -81,4 +84,4 @@
   margin: 0;
 }
 
-/* değişecek illaki ama temel dursun
+/* değişecek illaki ama temel dursun */
