@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="title">
       <div className="text-content">
         <h1>Virtue.</h1>
-        <h2>Always Forward with the JEWS</h2>
+        <h2>Always Forward with the Virtue</h2>
       </div>
       <div className="video-overlay">
         <video className="background-video" autoPlay loop muted>
