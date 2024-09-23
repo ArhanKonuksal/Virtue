@@ -6,6 +6,8 @@ import Halisköy from "../../assets/beykoy_siyah_beyaz 14.png";
 
 const OurClients = () => {
   return (
+    <div>Our Clients</div>
+    /*
     <div className='client-section'>
       <h2>Our Clients</h2>
       <p>We have been working with some Fortune 500+ clients.</p>
@@ -17,6 +19,7 @@ const OurClients = () => {
         <img src={Halisköy} alt="Client 4" /> 
       </div>
     </div>
+    */
   );
 };
 

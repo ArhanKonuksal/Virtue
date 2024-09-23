@@ -3,17 +3,18 @@ import './Hero.css';
 
 const Hero = () => {
   return (
-    <div className="title">
-      <div className="text-content">
-        <h1>Virtue.</h1>
-        <h2>Always Forward with the Virtue</h2>
+    <>
+    <div className="hero">
+      <div className='headings'>
+          <h1>You design it.</h1>
+          <h1>We build it, Fast.</h1>
       </div>
-      <div className="video-overlay">
-        <video className="background-video" autoPlay loop muted>
-        </video>
+      <div>
+
       </div>
-    </div>
-  );
+      </div>
+    </>
+  )
 };
 
 export default Hero;

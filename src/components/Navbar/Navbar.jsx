@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import { Link } from "react-router-dom";
+import React /*{ useState } */ from 'react';
+//import { Link } from "react-router-dom";
+import logo from "../../assets/logo.png"
 import "./Navbar.css";
 
 const Navbar = () => {
-    const [click, setClick] = useState(false);
-    const handleClick = () => setClick(!click);
-
     return (
-       <div>Navbar</div>
+       <div>
+        <img src={logo} alt="logo"></img>
+       </div>
     );
 };
 
