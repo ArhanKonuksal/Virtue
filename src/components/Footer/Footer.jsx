@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import VirtueLogo from "../../assets/Footerlogo.png";
+import VirtueLogo from "../../assets/Virtue Logo Concept 1 White 1.png";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import "./Footer.css";
@@ -43,6 +43,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+
         <div className="footer-follow-us">
           <h1>Follow Us</h1>
           <div className="footer-icons">
