@@ -18,34 +18,77 @@ const Footer = () => {
           </p>
         </div>
         <div className="footer-middle">
-          <h1>Contact</h1>
-          <p>
-            Organize Sanayi Bölgesi
-            <br />
-            3. Sokak
-            <br />
-            Lefkoşa/Nicosia
-          </p>
-          <p>hi@mygroovydomain.com</p>
-          <p>(123) 456-7890</p>
-        </div>
-        <div className="footer-right">
-          <h1>Terms of Services</h1>
+          <h1>Business Solutions</h1>
           <ul>
             <li>
-              <Link to="/about">About Us</Link>
+              <Link to="/businessconsultancy">Business Consultancy</Link>
             </li>
             <li>
-              <Link to="/terms">Terms of Use</Link>
+              <Link to="/marketplanning">Market Planning</Link>
             </li>
             <li>
-              <Link to="/privacy">Privacy Policy</Link>
+              <Link to="/recruitment">Recruitment & Talent</Link>
+            </li>
+            <li>
+              <Link to="/itsolutions">IT Solutions for Business</Link>
             </li>
           </ul>
         </div>
-
+        <div className="footer-middle">
+          <h1>Websites & Apps</h1>
+          <ul>
+            <li>
+              <Link to="/websitedesign">Custom Website Design</Link>
+            </li>
+            <li>
+              <Link to="/websitedevelopment">Custom Website Development</Link>
+            </li>
+            <li>
+              <Link to="/ecommercewebsite">eCommerce Website</Link>
+            </li>
+            <li>
+              <Link to="/retailwebsite">Retail Shop Website</Link>
+            </li>
+          </ul>
+        </div>
+        <div className="footer-middle">
+          <h1>Content & Design</h1>
+          <ul>
+            <li>
+              <Link to="/socialmediamangement">Social Media Management</Link>
+            </li>
+            <li>
+              <Link to="/brandinganddesign">Branding & Graphic Design</Link>
+            </li>
+            <li>
+              <Link to="/logodesign">Logo Design</Link>
+            </li>
+            <li>
+              <Link to="/uiuxdesign">UI/UX Design</Link>
+            </li>
+          </ul>
+        </div>
+        <div className="footer-right">
+          <h1>Advertising & Media</h1>
+          <ul>
+            <li>
+              <Link to="/adsmanagement">Targeted Ads Management</Link>
+            </li>
+            <li>
+              <Link to="/seoservices">SEO Services</Link>
+            </li>
+            <li>
+              <Link to="/emailmarketing">Sales Driven Email Marketing</Link>
+            </li>
+            <li>
+              <Link to="/influencermaketing">Influencer Marketing</Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="footer-bottom">
+        <p>Proudly powered by Virtue © 2024</p>
         <div className="footer-follow-us">
-          <h1>Follow Us</h1>
           <div className="footer-icons">
             <a
               href="https://instagram.com"
@@ -70,9 +113,17 @@ const Footer = () => {
             </a>
           </div>
         </div>
-      </div>
-      <div className="footer-bottom">
-        <p>Proudly powered by Virtue © 2024</p>
+        <div className="footer-text">
+          <p>
+            <a>Legal</a>
+          </p>
+          <p>
+            <a>Terms of Use</a>
+          </p>
+          <p>
+            <a>Privacy Policy</a>
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -18,7 +18,7 @@ const Hero = () => {
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
             nisi ut aliquip ex ea commodo consequat.{" "}
           </p>
-          <div style={{ paddingLeft: "150px" }}>
+          <div style={{ display: "block", marginLeft: "20%", marginTop: "5%" }}>
             <button className="button1">Instant Quote</button>
             <button className="button2">Book a Meeting</button>
           </div>
