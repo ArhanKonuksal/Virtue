@@ -6,8 +6,8 @@ import NavbarButton from "../../assets/navbar-button.png"
 
 const Navbar = () => {
     return (
-       <>
-       <div className='header'>
+    <>
+        <div className='header'>
             <img src={logo} alt="logo"></img>
             <h1>VIRTUE</h1>
         </div>
@@ -16,7 +16,7 @@ const Navbar = () => {
             <img src={NavbarButton} alt="Button" />
         </button>
         </div>
-        </>
+    </>
     );
 };
 

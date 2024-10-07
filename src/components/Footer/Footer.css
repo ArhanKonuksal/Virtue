@@ -8,12 +8,43 @@
 .footer-container {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  border-top: 1px solid #bba16c;
+  padding-top: 50px;
 }
 
-.footer-left, .footer-middle, .footer-right {
-  flex-basis: 20%;
+.footer-left,
+.footer-middle,
+.footer-right {
+  flex-basis: 15%;
   margin-bottom: 20px;
+  position: relative;
+  flex-grow: 1;
+}
+
+.footer-middle h1::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: -40px;
+  right: -10px;
+  height: 1px;
+  background-color: #303030;
+  width: calc(100% + 70px);
+}
+.footer-right h1::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: -40px;
+  right: -10px;
+  height: 1px;
+  background-color: #303030;
+  width: calc(100% + 40px);
+}
+.footer-middle,
+.footer-right {
+  border-left: 1px solid #303030;
 }
 
 .footer-logo {
@@ -21,27 +52,37 @@
   margin-bottom: 10px;
 }
 
-.footer-left p, .footer-middle p {
+.footer-left p,
+.footer-middle p,
+.footer-right p {
   margin: 5px 0;
 }
 
-.footer-right h1, .footer-middle h1 {
-  font-size: 18px;
-  margin-bottom: 10px;
+.footer-middle h1,
+.footer-right h1 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
+.footer-middle ul,
 .footer-right ul {
   list-style: none;
   padding: 0;
+  text-align: center;
 }
 
+.footer-middle ul li,
 .footer-right ul li {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
+.footer-middle ul li a,
 .footer-right ul li a {
   color: #fff;
   text-decoration: none;
+  font-weight: 200;
+  font-size: 16px;
 }
 
 .footer-follow-us {
@@ -71,12 +112,25 @@
 }
 
 .footer-bottom {
-  text-align: left;
+  text-align: center;
   padding-bottom: 15px;
   padding-top: 10px;
   margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
-
+.footer-text {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-text a {
+  margin: 0 5px;
+}
 .footer-bottom p {
   margin: 0;
 }
+
+/* değişecek illaki ama temel dursun */
