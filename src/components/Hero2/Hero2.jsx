@@ -11,6 +11,9 @@ const Hero2 = (props) => {
         <p>{props.description}</p>
         <p>{props.smallDescription}</p>
       </div>
+      <div className='photo'>
+        <img alt="Photo" src={props.photo}/>
+      </div>
     </div>
   );
 };
