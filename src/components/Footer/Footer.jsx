@@ -115,13 +115,13 @@ const Footer = () => {
         </div>
         <div className="footer-text">
           <p>
-            <a>Legal</a>
+            <a to="/legal">Legal</a>
           </p>
           <p>
-            <a>Terms of Use</a>
+            <a to="terms">Terms of Use</a>
           </p>
           <p>
-            <a>Privacy Policy</a>
+            <a to="privacy">Privacy Policy</a>
           </p>
         </div>
       </div>

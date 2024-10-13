@@ -1,0 +1,1 @@
+Page lerde ekstra style a ihtiyacımız olursa diye açtım bu directory i yi
