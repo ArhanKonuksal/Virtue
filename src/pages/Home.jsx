@@ -1,28 +1,29 @@
-import React from 'react'
-import Footer from "../components/Footer/Footer"
-import Navbar from "../components/Navbar/Navbar"
-import Hero from "../components/Hero/Hero"
-import OurClients from '../components/Our Clients/OurClients'
-//import homesection1 from '../components/homesection1/homesection1'
+import React from "react";
+import Footer from "../components/Footer/Footer";
+import Navbar from "../components/Navbar/Navbar";
+import Hero from "../components/Hero/Hero";
+import OurClients from "../components/Our Clients/OurClients";
+import Homesection1 from "../components/homesection1/homesection1";
 //import Divider from '../components/Divider/Divider'
 
 const Home = () => {
   return (
-  <>
-  <div>
-    <Navbar />
-    <Hero />
-    <OurClients />
-    {/*
+    <>
+      <div>
+        <Navbar />
+        <Hero />
+        <OurClients />
+        <Homesection1 />
+        {/*
     <Homesection1 />
     4 daha section gelecek buraya divider hariç
     */}
-    {/* <Divider /> */}
-    {/*Buraya son yercik gelecek */}
-    <Footer />
-    </div>
-  </>
-  )
-}
+        {/* <Divider /> */}
+        {/*Buraya son yercik gelecek */}
+        <Footer />
+      </div>
+    </>
+  );
+};
 
-export default Home
+export default Home;
