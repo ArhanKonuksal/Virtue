@@ -31,7 +31,7 @@ const homesection1 = () => {
                     </div>
                 </div>
     </div>
-    {/* O resim buraya mı gelsin emin olamadım */}
+    {/* O resim buraya mı gelsin emin olamadım / O gri geçişi nasıl yapacayık sen biln Ersoy*/}
     </>
   )
 }

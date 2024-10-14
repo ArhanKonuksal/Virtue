@@ -10,7 +10,8 @@ const homesection2 = () => {
         <p>Virtue connects strategy, technology, and creativity to architect your business success.</p>
         </div>
             <div className='boxes'>
-            {/* Ersoyum Golay gelsin ❤️ */ }
+
+            {/* Ersoyum Golay gelsin Flex nan yapacan herhalde ama css ini bilmem diye girişmedim sorry*/ }
             </div>
     </div>
     </>
