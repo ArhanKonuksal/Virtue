@@ -118,10 +118,10 @@ const Footer = () => {
             <a to="/legal">Legal</a>
           </p>
           <p>
-            <a to="terms">Terms of Use</a>
+            <a to="/terms">Terms of Use</a>
           </p>
           <p>
-            <a to="privacy">Privacy Policy</a>
+            <a to="/privacy">Privacy Policy</a>
           </p>
         </div>
       </div>
