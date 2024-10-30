@@ -6,8 +6,8 @@ import Navbar2 from "../components/Navbar2/Navbar2";
 const About = () => {
   return (
     <>
-      <Navbar2 />
-      <Hero2 /> {/*anlamadım bu sayfayı gerçekten sağlam bir konuşmamız lazım*/}
+      <Navbar />
+      <Hero2 />
       <Footer />
     </>
   );
