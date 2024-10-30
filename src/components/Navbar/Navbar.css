@@ -2,24 +2,121 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: transparent;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 100;
 }
 
-.header img {
-    margin-right: 10px; 
-    width: 100px;
-    height: 120px;
-  }
+.header.scrolled {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background on scroll */
+    justify-content: space-between;
+    padding: 10px 20px;
+}
 
-.navbarli-btn {
-    background: transparent; 
-    border: none;           
+.logo {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.header-title {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 24px;
+    color: white;
+    transition: opacity 0.3s ease;
+    text-decoration: none;
+}
+
+.header.scrolled .header-title {
+    opacity: 0; /* Hide title on scroll */
+    display: none;
+}
+
+.nav-menu {
+    display: none;
+    list-style: none;
+    transition: opacity 0.3s ease;
+}
+
+.header.scrolled .nav-menu {
     display: flex;
-    align-items: center;     
-    justify-content: center; 
-    margin: 20px auto;       
-    cursor: pointer;      
+    align-items: center;
+    justify-content: center;
 }
 
-.navbarli-btn img {
-    display: block;
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.language-icon {
+    position: relative;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.language-icon img {
+    width: 35px;
+    height: 35px;
+    padding-right: 30px;
+}
+
+.language-dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 35px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.language-dropdown.active {
+    display: flex;
+    flex-direction: column;
+}
+
+.language-dropdown img {
+    width: 30px;
+    height: 20px;
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        background-color: #333;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .language-dropdown {
+        top: 50px;
+    }
 }
