@@ -1,3 +1,98 @@
-/*
-Hade Ersoy um beline guvvet
-*/
+.headings {
+  margin-top: 5%;
+}
+.headings h1 {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 70px;
+}
+
+.headings h2 {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 2%;
+  background: linear-gradient(to right, #009dff, #1ed5ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home-section3-container p {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+/* Container to hold the overall content */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 3rem;
+  margin: auto;
+  position: relative;
+  border-radius: 15px;
+}
+
+/* Logo styling */
+.image-container img[alt="virtue-logo"] {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  width: 100px;
+  height: auto;
+  opacity: 0.8;
+}
+
+/* Styling for the blue rectangle content */
+.blue-rectangle-content {
+  background: linear-gradient(135deg, #005a9e, #50b7f5);
+  padding: 2rem;
+  border-radius: 20px;
+  color: #ffffff;
+  width: 80%;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.codeblock {
+  background: rgba(0, 0, 0, 0);
+}
+.blue-rectangle-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background: rgba(0, 0, 0, 0);
+}
+
+.blue-rectangle-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  background: rgba(0, 0, 0, 0);
+}
+
+.blue-rectangle-content a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  padding-bottom: 2px;
+  transition: all 0.3s ease;
+  background: rgba(0, 0, 0, 0);
+}
+
+.blue-rectangle-content a:hover {
+  color: #000000;
+}
+
+/* Combined image styling */
+.image-container img[alt="Blue Rectangle"] {
+  max-width: 500px; /* Adjust as needed */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  margin-left: 1rem;
+}

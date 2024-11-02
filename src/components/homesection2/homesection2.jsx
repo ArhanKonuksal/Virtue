@@ -1,4 +1,6 @@
 import React from "react";
+import "./homesection2.css";
+import deneme1 from "../../assets/senses.png";
 
 const homesection2 = () => {
   return (
@@ -14,10 +16,43 @@ const homesection2 = () => {
         </div>
         <div className="card-grid">
           <div className="card">
-            <div className="card-overlay">0+</div>
-            <p className="card-text">Lorem Ipsum</p>
+            <img src={deneme1}></img>
+            <div className="card-overlay">
+              <p className="card-text">Lorem Ipsum</p>
+            </div>
           </div>
-          {/* Add more cards here */}
+          <div className="card-first">
+            <img src={deneme1}></img>
+            <div className="card-overlay">
+              <p className="card-text">Lorem Ipsum</p>
+            </div>
+          </div>
+          <div className="card">
+            <img src={deneme1}></img>
+            <div className="card-overlay">
+              <p className="card-text">Lorem Ipsum</p>
+            </div>
+          </div>
+        </div>
+        <div className="card-grid-second">
+          <div className="card">
+            <img src={deneme1}></img>
+            <div className="card-overlay">
+              <p className="card-text">Lorem Ipsum</p>
+            </div>
+          </div>
+          <div className="card-second">
+            <img src={deneme1}></img>
+            <div className="card-overlay">
+              <p className="card-text">Lorem Ipsum</p>
+            </div>
+          </div>
+          <div className="card">
+            <img src={deneme1}></img>
+            <div className="card-overlay">
+              <p className="card-text">Lorem Ipsum</p>
+            </div>
+          </div>
         </div>
       </div>
     </>
