@@ -7,7 +7,7 @@ const About = () => {
   return (
   <>
     <Navbar2 />
-    <Hero2 /> {/*anlamadım bu sayfayı gerçekten sağlam bir konuşmamız lazım*/}
+    <Hero2 />
     <Footer />
   </>
   )
