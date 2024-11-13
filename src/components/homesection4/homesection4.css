@@ -1,1 +1,87 @@
-/* Feauture u yapacam canım ersoy cuğum flexnan rahat ol :)
+.headings-section4 {
+  margin-top: 2%;
+}
+.headings-section4 h1 {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 70px;
+}
+
+.headings-section4 h2 {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0;
+  background: linear-gradient(to right, #3afc28, #026aaf);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headings-section4 p {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.features {
+  text-align: center;
+  padding: 2rem;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(5, 38, 23, 1) 56%,
+    rgba(10, 76, 47, 1) 78%,
+    rgba(22, 142, 88, 1) 85%,
+    rgba(32, 241, 166, 1) 89%,
+    rgba(0, 255, 255, 1) 100%
+  );
+  margin: 2% 10%;
+  border-radius: 2%;
+}
+
+.features h2 {
+  font-size: 60px;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0);
+  text-align: left;
+}
+
+.flex-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  background: rgba(0, 0, 0, 0);
+  margin: 5% 2%;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  height: 80%;
+  margin: 5% 2%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card h3 {
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+  background: rgba(0, 0, 0, 0);
+  text-align: left;
+}
+
+.feature-card p {
+  line-height: 1.5;
+  background: rgba(0, 0, 0, 0);
+  text-align: left;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.5);
+}

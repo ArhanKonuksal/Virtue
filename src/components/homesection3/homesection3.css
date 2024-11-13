@@ -1,13 +1,13 @@
-.headings {
+.home-section3-container {
   margin-top: 5%;
 }
-.headings h1 {
+.home-section3-container h1 {
   text-align: center;
   margin: 0 auto;
   font-size: 70px;
 }
 
-.headings h2 {
+.home-section3-container h2 {
   text-align: center;
   font-size: 60px;
   margin-top: 2%;
@@ -87,23 +87,12 @@
   width: 100%;
 }
 
-.blue-rectangle-content a {
-  color: #ffffff;
-  font-weight: bold;
-  text-decoration: none;
-  padding-bottom: 2px;
-  transition: transform 0.3s ease;
-  background: rgba(0, 0, 0, 0);
+.blue-rectangle-content .readmore-link:hover {
+  transform: scale(1.1);
 }
 
-.blue-rectangle-content a:hover {
-  color: #000000;
-  transform: translateY(-10px); /* Lift effect on hover */
-}
-
-/* Combined image styling */
 .image-container img[alt="Blue Rectangle"] {
-  max-width: 500px; /* Adjust as needed */
+  max-width: 500px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   margin-left: 1rem;
@@ -113,9 +102,17 @@
   background: rgba(0, 0, 0, 0);
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
-.readmore-button:hover {
-  color: #000000;
+.blue-rectangle-content .readmore-link {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+  background: rgba(0, 0, 0, 0);
+  margin-bottom: 15%;
+  position: relative;
+  z-index: 5;
 }

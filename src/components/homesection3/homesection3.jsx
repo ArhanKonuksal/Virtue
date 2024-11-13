@@ -36,7 +36,7 @@ const HomeSection3 = () => {
                 Virtue your go-to for deploying user interfaces that engage and
                 convert.
               </p>
-              <a href="/readmore">
+              <a href="/readmore" className="readmore-link">
                 READ MORE
                 <button className="readmore-button">
                   <FontAwesomeIcon
