@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import "./Navbar.css";
 import logo1 from "../../assets/Logos/1/white.svg";
 import logo2 from "../../assets/Logos/3/white.svg";
@@ -15,6 +16,9 @@ const Navbar = () => {
   const [scroll, setScroll] = useState(false);
   const [languageDropdown, setLanguageDropdown] = useState(false);
 
+  const [hidden, setHidden] = useState(false);
+  const { scrollY } = useScroll();
+
   const handleClick = () => setClick(!click);
   const toggleLanguageDropdown = () => setLanguageDropdown(!languageDropdown);
 
@@ -24,8 +28,22 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useMotionValueEvent(scrollY, "change", (latest) => {
+    const previous = scrollY.getPrevious();
+    if (latest > previous && latest > 100) {
+      setHidden(true);
+    } else {
+      setHidden(false);
+    }
+  });
+
   return (
-    <div className={`header ${scroll ? "scrolled" : ""}`}>
+    <motion.div
+      className={`header ${scroll ? "scrolled" : ""}`}
+      variants={{ visible: { y: 0 }, hidden: { y: "-100%" } }}
+      animate={hidden ? "hidden" : "visible"}
+      transition={{ duration: 0.45, ease: "easeInOut" }}
+    >
       <Link to="/" className="header-title">
         <img src={scroll ? logo2 : logo1} alt="logo" className="logo" />
       </Link>
@@ -85,7 +103,7 @@ const Navbar = () => {
       <div className="menu-icon" onClick={handleClick}>
         <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
