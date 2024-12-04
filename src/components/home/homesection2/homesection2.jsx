@@ -1,6 +1,6 @@
 import React from "react";
 import "./homesection2.css";
-import deneme1 from "../../assets/senses.png";
+import deneme1 from "../../../assets/senses.png";
 
 const homesection2 = () => {
   return (

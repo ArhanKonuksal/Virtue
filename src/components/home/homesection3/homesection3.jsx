@@ -1,8 +1,8 @@
 import React from "react";
 import "./homesection3.css";
-import VirtueLogo from "../../assets/Virtue-Logo.png";
+import VirtueLogo from "../../../assets/Virtue-Logo.png";
 //import BlueRectangle from "../../assets/BlueRectangle.png";
-import CodeBlock from "../../assets/code2.png";
+import CodeBlock from "../../../assets/code2.png";
 //import NpmBlock from "../../assets/npm-requestfoto.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";

@@ -1,0 +1,7 @@
+.dividers {
+    position: absolute;
+    width: 100vw;
+    height: 400px;
+    overflow: hidden;
+    background-size: cover;
+  }

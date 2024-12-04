@@ -5,77 +5,101 @@
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 20px;
+  
     background-color: transparent;
     transition: background-color 0.3s ease, transform 0.3s ease;
     z-index: 100;
-}
-
-.header.scrolled {
+  }
+  
+  .header.scrolled {
     background-color: rgba(0, 0, 0, 0.8); /* Dark background on scroll */
     justify-content: space-between;
-    padding: 10px 20px;
-}
-
-.logo {
-    width: 50px;
-    height: 50px;
+    padding: 20px;
+  }
+  
+  .logo {
+    background: rgba(0, 0, 0, 0);
+    width: auto;
+    height: 100px;
     transition: transform 0.3s ease;
-}
-
-.header-title {
+    margin: 10% auto;
+  }
+  
+  .header-title {
     display: inline-block;
-    margin-left: 10px;
+    background: rgba(0, 0, 0, 0);
     font-size: 24px;
     color: white;
     transition: opacity 0.3s ease;
     text-decoration: none;
-}
-
-.header.scrolled .header-title {
-    opacity: 0; /* Hide title on scroll */
-    display: none;
-}
-
-.nav-menu {
+  }
+  
+  .header.scrolled .header-title img {
+    height: 50px;
+    width: 50px;
+    transition: transform 0.3s;
+  }
+  
+  .header.scrolled .header-title img:hover {
+    scale: 1.1;
+  }
+  
+  .nav-menu {
     display: none;
     list-style: none;
     transition: opacity 0.3s ease;
-}
-
-.header.scrolled .nav-menu {
+  }
+  
+  .header.scrolled .nav-menu {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.nav-menu li {
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0);
+  }
+  
+  .nav-menu li {
     margin: 0 15px;
-}
-
-.nav-menu li a {
-    color: white;
+    background: rgba(0, 0, 0, 0);
+  }
+  
+  .nav-menu li a {
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0);
+    font-size: 20px;
     text-decoration: none;
-    font-size: 18px;
-}
-
-.menu-icon {
-    display: none;
-}
-
-.language-icon {
+    padding: 10px 20px;
+    margin: 0 5px;
     position: relative;
-    margin-left: auto;
+    display: inline-block;
+    transition: all 0.5s;
+  }
+  .nav-menu li a:hover {
+    color: #1e5aff;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  
+  .language-icon {
+    position: absolute;
     cursor: pointer;
-}
-
-.language-icon img {
-    width: 35px;
-    height: 35px;
-    padding-right: 30px;
-}
-
-.language-dropdown {
+    right: 40px;
+    padding-right: 35px;
+    background: rgba(0, 0, 0, 0);
+  }
+  
+  .language-icon img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3 ease;
+  }
+  
+  .language-icon img:hover {
+    transform: scale(1.1);
+  }
+  .language-dropdown {
     display: none;
     position: absolute;
     right: 0;
@@ -83,42 +107,69 @@
     background-color: rgba(0, 0, 0, 0.8);
     padding: 10px;
     border-radius: 5px;
-}
-
-.language-dropdown.active {
-    display: flex;
-    flex-direction: column;
-}
-
-.language-dropdown img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 100;
+  }
+  
+  .language-dropdown.active {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .language-dropdown img {
     width: 30px;
     height: 20px;
-    margin: 5px 0;
-}
-
-@media (max-width: 768px) {
+    margin: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .language-dropdown img:hover {
+    transform: scale(1.1);
+  }
+  
+  .language-dropdown .language-option {
+    color: white;
+    padding: 8px 15px;
+    text-align: left;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .language-dropdown .language-option:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .language-dropdown .language-option img {
+    margin-right: 10px;
+  }
+  @media (max-width: 768px) {
     .menu-icon {
-        display: block;
-        cursor: pointer;
+      display: block;
+      cursor: pointer;
     }
-
+  
     .nav-menu {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 100%;
-        background-color: #333;
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 100%;
+      background-color: #333;
     }
-
+  
     .nav-menu.active {
-        display: flex;
+      display: flex;
     }
-
+  
     .language-dropdown {
-        top: 50px;
+      top: 50px;
     }
-}
-
-/* Benim navbar istenilene daha çok benzer */
+  }
