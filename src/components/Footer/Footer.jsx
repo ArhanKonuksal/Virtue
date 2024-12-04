@@ -1,10 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-<<<<<<< HEAD
 import VirtueLogo from "../../assets/Virtue Logo Concept 1 White 1.png";
-=======
-import VirtueLogo from "../../assets/Footerlogo.png";
->>>>>>> main
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import "./Footer.css";
@@ -22,7 +18,6 @@ const Footer = () => {
           </p>
         </div>
         <div className="footer-middle">
-<<<<<<< HEAD
           <h1>Business Solutions</h1>
           <ul>
             <li>
@@ -90,59 +85,6 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-=======
-          <h1>Contact</h1>
-          <p>
-            Organize Sanayi Bölgesi
-            <br />
-            3. Sokak
-            <br />
-            Lefkoşa/Nicosia
-          </p>
-          <p>hi@mygroovydomain.com</p>
-          <p>(123) 456-7890</p>
-        </div>
-        <div className="footer-right">
-          <h1>Terms of Services</h1>
-          <ul>
-            <li>
-              <Link to="/about">About Us</Link>
-            </li>
-            <li>
-              <Link to="/terms">Terms of Use</Link>
-            </li>
-            <li>
-              <Link to="/privacy">Privacy Policy</Link>
-            </li>
-          </ul>
-        </div>
-        <div className="footer-follow-us">
-          <h1>Follow Us</h1>
-          <div className="footer-icons">
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram />
-            </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaXTwitter />
-            </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedin />
-            </a>
-          </div>
-        </div>
->>>>>>> main
       </div>
       <div className="footer-bottom">
         <p>Proudly powered by Virtue © 2024</p>
@@ -172,16 +114,16 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-text">
-          <p>
-            <a to="/legal">Legal</a>
-          </p>
-          <p>
-            <a to="/terms">Terms of Use</a>
-          </p>
-          <p>
-            <a to="/privacy">Privacy Policy</a>
-          </p>
-        </div>
+  <p>
+    <Link to="/legal">Legal</Link>
+  </p>
+  <p>
+    <Link to="/terms">Terms of Use</Link>
+  </p>
+  <p>
+    <Link to="/privacy">Privacy Policy</Link>
+  </p>
+</div>
       </div>
     </div>
   );
@@ -189,8 +131,4 @@ const Footer = () => {
 
 export default Footer;
 
-<<<<<<< HEAD
 /* değişecek illaki ama temel dursun */
-=======
-/* değişecek illaki ama temel dursun */
->>>>>>> main
