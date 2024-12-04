@@ -4,6 +4,7 @@ import './Hero2.css';
 const Hero2 = (props) => {
   return (
     <div className="hero2">
+<<<<<<< HEAD
       <img alt="HeroImg" src={props.hero2Img} />
       <div className="hero2-text">
         <h1>{props.title}</h1>
@@ -13,6 +14,13 @@ const Hero2 = (props) => {
       </div>
       <div className='photo'>
         <img alt="Background" src={props.photo}/>
+=======
+      <div className={props.cName}>
+        <img className="hero2-img" alt="HeroImg" src={props.heroImg} />
+        <div className="hero2-text">
+          <h1>{props.title}</h1>
+        </div>
+>>>>>>> main
       </div>
     </div>
   );

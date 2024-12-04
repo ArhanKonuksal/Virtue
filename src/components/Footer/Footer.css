@@ -16,7 +16,11 @@
 .footer-left,
 .footer-middle,
 .footer-right {
+<<<<<<< HEAD
   flex-basis: 15%;
+=======
+  flex-basis: 20%;
+>>>>>>> main
   margin-bottom: 20px;
   position: relative;
   flex-grow: 1;
@@ -48,11 +52,15 @@
 }
 
 .footer-logo {
+<<<<<<< HEAD
   max-width: 302px;
+=======
+>>>>>>> main
   margin-bottom: 10px;
 }
 
 .footer-left p,
+<<<<<<< HEAD
 .footer-middle p,
 .footer-right p {
   margin: 5px 0;
@@ -63,6 +71,16 @@
   font-size: 24px;
   margin-bottom: 30px;
   text-align: center;
+=======
+.footer-middle p {
+  margin: 5px 0;
+}
+
+.footer-right h1,
+.footer-middle h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+>>>>>>> main
 }
 
 .footer-middle ul,
@@ -133,4 +151,8 @@
   margin: 0;
 }
 
+<<<<<<< HEAD
 /* değişecek illaki ama temel dursun */
+=======
+/* değişecek illaki ama temel dursun */
+>>>>>>> main
