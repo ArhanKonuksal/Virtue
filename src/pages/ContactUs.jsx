@@ -3,7 +3,7 @@ import Footer from "../components/Footer/Footer"
 import Navbar from "../components/Navbar/Navbar"
 import Hero2 from "../components/Hero2/Hero2"
 import ContactForm from "../components/ContactForm/Form"
-import Divider from '../components/Divider/Divider'
+import Dividers from '../components/Dividers/Dividers'
 
 const Contact = () => {
   return (
@@ -11,7 +11,7 @@ const Contact = () => {
     <Navbar />
     <Hero2 />
     <ContactForm />
-    <Divider />
+    <Dividers />
     <div className='last-part'>
       <h1>Connect with Our Experts</h1>
       <p>Schedule your free face-to-face appointment at our cutting-edge Marbella or Barcelona facilities, or opt for a virtual consultation.</p>
