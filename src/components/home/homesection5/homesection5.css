@@ -1,0 +1,102 @@
+/* ServicesCards.css */
+.home-section5-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  padding: 40px;
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.service-content {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.service-card {
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.service-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.service-card p {
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.service-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  background-color: #00008b;
+}
+
+/* Specific Styles for Each Card */
+.developers {
+  background-color: #111;
+  grid-row: span 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #222;
+}
+
+.service-image {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.service-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  height: 20%;
+  width: 100%;
+}
+
+.marketers {
+  background-color: #cde1ff;
+  color: #000;
+}
+
+.marketers .service-button {
+  background-color: #4d6bff;
+}
+
+.consultants {
+  background-color: #00254d;
+  color: #fff;
+}
+
+.consultants .service-button {
+  background-color: #fff;
+  color: #00254d;
+}
+
+.icon {
+  background-color: #00008b;
+  color: #fff;
+  border: none;
+  padding: 15px 20px;
+  display: inline;
+  border-radius: 40px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 3%;
+}

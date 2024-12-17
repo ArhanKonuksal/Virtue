@@ -1,38 +1,37 @@
 .divider {
-    position: absolute;
-    width: 100%;
-    height: 400px;
-    overflow: hidden;
-    background-size: cover;
-    padding-bottom: 300px;
-  }
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  background-size: cover;
+}
 
-  .divider img {
-    width: 100%;
-  }
-  
-  .divider-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    background: rgba(0, 0, 0, 0)
-  }
-  
-  .divider-text h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin: 0;
-    background: rgba(0, 0, 0, 0)
-  }
-  
-  .divider-text p {
-    font-size: 1.25rem;
-    margin: 0.5rem 0 0;
-    background: linear-gradient(to right, violet, orange);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
+.divider img {
+  width: 100%;
+}
+
+.divider-text {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0);
+  z-index: 5;
+}
+
+.divider-text h1 {
+  font-size: 60px;
+
+  margin: 0;
+  background: rgba(0, 0, 0, 0);
+}
+
+.divider-text p {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0.5rem 0 0;
+  background: linear-gradient(to right, #9321f0, #fab31b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

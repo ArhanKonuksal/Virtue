@@ -1,0 +1,35 @@
+.contact-section {
+  background-color: #000;
+  padding: 50px;
+  text-align: center;
+}
+
+.contact-section h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.contact-section h1 {
+  font-size: 60px;
+}
+
+.contact-button {
+  color: #fff;
+  font-size: 14px;
+  box-shadow: 1px 1px 1px #000;
+  padding: 10px 40px;
+  border-radius: 40px;
+  border: 2px solid #fff;
+  background: #000;
+  left: 50%;
+  margin-top: 2%;
+  transition: transform 0.5 ease;
+}
+
+.contact-button:hover {
+  color: #000;
+  background: #fff;
+  cursor: pointer;
+  transform: scale(1.1);
+}

@@ -8,6 +8,7 @@ const Hero2 = (props) => {
         <img className="hero2-img" alt="HeroImg" src={props.heroImg} />
         <div className="hero2-text">
           <h1>{props.title}</h1>
+          <p>{props.text}</p>
         </div>
       </div>
     </div>
