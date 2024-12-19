@@ -6,6 +6,7 @@ import HeroImage from "../assets/BlueRectangle.png";
 import OurServicesSection1 from "../components/OurServices/OurServices1/ourservices1";
 import OurServicesSection2 from "../components/OurServices/OurServices2/ourservices2";
 import OurServicesSection3 from "../components/OurServices/OurServices3/ourservices3";
+import OurServicesSection4 from "../components/OurServices/OurServices4/ourservices4";
 
 const Services = () => {
   return (
@@ -19,7 +20,9 @@ const Services = () => {
       />
       <OurServicesSection1 />
       <OurServicesSection2 />
+      <OurServicesSection4 />
       <OurServicesSection3 />
+
       <Footer />
     </>
   );
