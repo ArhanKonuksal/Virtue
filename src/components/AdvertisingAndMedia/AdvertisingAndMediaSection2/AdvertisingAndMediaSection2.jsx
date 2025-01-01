@@ -33,7 +33,7 @@ const AdvertisingAndMediaSection2 = () => {
             </button>
           </a>
         </div>
-        <div className="image-container">
+        <div className="image-container-advertisement">
           <img src={phoneImage} alt="Phone" className="phone-image" />
           <img src={monitorImage} alt="Monitor" className="monitor-image" />
         </div>

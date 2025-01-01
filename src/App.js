@@ -7,6 +7,7 @@ import JoinUs from "./pages/JoinUs";
 import OurServices from "./pages/OurServices";
 import Insights from "./pages/Insights";
 import AdvertisingAndMedia from "./pages/AdvertisingAndMedia";
+import BusinessSolutions from "./pages/BusinessSolutions";
 import "./App.css";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             path="/AdvertisingAndMedia"
             element={<AdvertisingAndMedia />}
           />
+          <Route path="/BusinessSolutions" element={<BusinessSolutions />} />
         </Routes>
       </Router>
     </>
