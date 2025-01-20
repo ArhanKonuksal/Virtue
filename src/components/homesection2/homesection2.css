@@ -121,8 +121,8 @@
 .card-first img,
 .card-second img {
   position: relative;
-  width: 300px;
-  height: 500px;
+  width: 250px;
+  height: 400px;
   border-radius: 20px;
   overflow: hidden;
   object-fit: cover;

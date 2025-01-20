@@ -6,6 +6,12 @@
   font-style: normal;
 }
 
+.about-us-hero2 h1 {
+  color: #000 !important;
+}
+.about-us-hero2 p {
+  color: #000 !important;
+}
 .button1 {
   background-color: rgba(0, 0, 139, 1);
   color: rgba(255, 255, 255, 1);

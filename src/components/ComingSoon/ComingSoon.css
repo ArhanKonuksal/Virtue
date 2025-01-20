@@ -1,0 +1,131 @@
+/* General Styling */
+/* Container */
+.coming-soon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  text-align: center;
+  padding: 20px;
+  background: rgb(0, 0, 139);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 139, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.logo-coming-soon {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.logo-icon-coming-soon {
+  font-size: 1.5rem;
+  color: #00cfff;
+}
+
+/* Content */
+.content-coming-soon {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  background: rgba(0, 0, 0, 0);
+}
+
+.logo-coming-soon-container {
+  height: 500px;
+  width: 500px;
+  background: rgba(0, 0, 0, 0);
+}
+.logo-coming-soon-container img {
+  background: rgba(0, 0, 0, 0);
+}
+.text-container-coming-soon {
+  display: inline;
+  height: 200px;
+  margin-right: 10%;
+  background: rgba(0, 0, 0, 0);
+}
+.main-title-coming-soon {
+  font-size: 60px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  background: rgba(0, 0, 0, 0);
+}
+
+.description-coming-soon {
+  font-size: 18px;
+  margin: 20px auto;
+  color: #fff;
+  line-height: 1.5;
+  max-width: 600px;
+  text-align: left;
+  background: rgba(0, 0, 0, 0);
+}
+
+/* Subscribe Form */
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0);
+}
+
+.email-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  margin-right: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0);
+}
+
+.subscribe-button {
+  padding: 10px 20px;
+  background-color: #00cfff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.subscribe-button:hover {
+  background-color: #008fdf;
+}
+
+/* Footer */
+.footer-coming-soon {
+  position: absolute;
+  bottom: 5%;
+  color: #fff;
+  font-size: 0.9rem;
+  background: rgba(0, 0, 0, 0);
+}
+
+.footer-coming-soon p {
+  background: rgba(0, 0, 0, 0);
+}
+
+.social-icons {
+  margin-top: 10px;
+  background: rgba(0, 0, 0, 0);
+}
+
+.social-icons span {
+  background: rgba(0, 0, 0, 0);
+}
+.social-icons span {
+  margin: 0 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
