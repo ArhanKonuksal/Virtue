@@ -50,7 +50,7 @@ const Navbar = () => {
 
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to="/Home" onClick={handleClick}>
+          <Link to="/OurServices" onClick={handleClick}>
             Services
           </Link>
         </li>

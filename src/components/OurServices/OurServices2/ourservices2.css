@@ -18,6 +18,15 @@
   min-width: 40%;
 }
 
+.service-info img {
+  height: 50px;
+  width: 50px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  position: relative;
+  left: -40%;
+}
+
 .service-info h2 {
   font-size: 32px;
   margin-bottom: 10px;
@@ -41,14 +50,14 @@
   position: absolute;
   left: 5%;
   margin-top: 2%;
-  transition: transform 0.5 ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .explore-button:hover {
   color: #000;
   background: #fff;
   cursor: pointer;
-  transform: scale(1.1);
+  transform: translateY(-10px);
 }
 
 .service-items {
