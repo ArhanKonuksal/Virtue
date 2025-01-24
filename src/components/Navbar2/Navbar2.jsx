@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import "./Navbar2.css";
-import logo1 from "../../assets/Logos/1/white.svg";
-import logo2 from "../../assets/Logos/3/white.svg";
-import globeIcon from "../../assets/globe.png";
+import logo1 from "../../assets/Logos/1/black.svg";
+import logo2 from "../../assets/Logos/3/colored.svg";
+import globeIcon from "../../assets/black_world_language_icon.png";
 import flagFR from "../../assets/Flag_of_France 1.png";
 import flagTR from "../../assets/Flag_of_Turkey 1.png";
 import flagSA from "../../assets/Flag_of_Saudi_Arabia 1.png";
@@ -39,16 +39,16 @@ const Navbar2 = () => {
 
   return (
     <motion.div
-      className={`header ${scroll ? "scrolled" : ""}`}
+      className={`header2 ${scroll ? "scrolled" : ""}`}
       variants={{ visible: { y: 0 }, hidden: { y: "-100%" } }}
       animate={hidden ? "hidden" : "visible"}
-      transition={{ duration: 0.45, ease: "easeInOut" }}
+      transition={{ duration: 0.2, ease: "easeInOut" }}
     >
       <Link to="/" className="header-title">
         <img src={scroll ? logo2 : logo1} alt="logo" className="logo" />
       </Link>
 
-      <ul className={click ? "nav-menu active" : "nav-menu"}>
+      <ul className={click ? "nav-menu active" : "nav-menu2"}>
         <li>
           <Link to="/Home" onClick={handleClick}>
             Services
@@ -76,25 +76,25 @@ const Navbar2 = () => {
         </li>
       </ul>
 
-      <div className="language-icon" onClick={toggleLanguageDropdown}>
+      <div className="language-icon2" onClick={toggleLanguageDropdown}>
         <img src={globeIcon} alt="language icon" />
 
         <div
-          className={`language-dropdown ${languageDropdown ? "active" : ""}`}
+          className={`language-dropdown2 ${languageDropdown ? "active" : ""}`}
         >
-          <div className="language-option">
+          <div className="language-option2">
             <img src={flagSA} alt="Arabic" />
           </div>
-          <div className="language-option">
+          <div className="language-option2">
             <img src={flagTR} alt="Turkish" />
           </div>
-          <div className="language-option">
+          <div className="language-option2">
             <img src={flagDU} alt="Dutch" />
           </div>
-          <div className="language-option">
+          <div className="language-option2">
             <img src={flagFR} alt="French" />
           </div>
-          <div className="language-option">
+          <div className="language-option2">
             <img src={flagUK} alt="English" />
           </div>
         </div>

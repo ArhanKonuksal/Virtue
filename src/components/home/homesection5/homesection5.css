@@ -1,0 +1,141 @@
+/* ServicesCards.css */
+.home-section5-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  padding: 40px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  height: 700px;
+}
+
+.service-content {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.service-card {
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  position: relative;
+  max-height: 700px;
+}
+
+.service-card h2 {
+  font-size: 38px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 20%;
+  left: 2%;
+}
+
+.service-card-text1 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: left;
+}
+.service-card-text2 {
+  font-size: 14px;
+  position: absolute;
+  line-height: 1.4;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: left;
+  top: 50%;
+}
+
+.service-button {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 40px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  background-color: #00008b;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-button:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+
+/* Specific Styles for Each Card */
+.developers {
+  background-color: #121316 !important;
+  grid-row: span 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #222;
+}
+
+.service-image {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.service-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  height: 20%;
+  width: 100%;
+}
+
+@media screen and (min-width: 1600px) {
+  .service-image img {
+    max-height: 700px;
+  }
+}
+.marketers {
+  background-color: #cde1ff !important;
+  color: #000;
+}
+
+.marketers h2 {
+  color: #000 !important;
+}
+
+.marketers p {
+  color: #000 !important;
+}
+
+.marketers .service-button {
+  background-color: #4d6bff;
+}
+
+.consultants {
+  background-color: #00254d !important;
+  color: #fff;
+}
+
+.consultants .service-button {
+  background-color: #fff;
+  color: #00254d;
+}
+
+.icon {
+  background-color: #40434f;
+  color: #000;
+  border: none;
+  padding: 15px 20px;
+  display: inline;
+  border-radius: 40px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 3%;
+  position: absolute;
+  top: 5%;
+  left: 2%;
+}

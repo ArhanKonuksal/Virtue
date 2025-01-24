@@ -1,13 +1,4 @@
-
-
-
-
-
-
-
-
 /*Sen halleden hoca bu eskiden kalmadır */
-/*
 .hero2 {
   position: relative;
   width: 100%;
@@ -23,19 +14,61 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+  z-index: 1;
+  opacity: 0.7;
 }
 
 .hero2-text {
   position: absolute;
-  bottom: 0;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
   width: 100%;
-  background: rgba(224, 196, 142, 0.9);
-  color: #fff;
   text-align: center;
-  padding: 20px 0;
-  font-size: 36px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 20;
+}
+
+.hero2-numeric {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.hero2-text h1 {
+  font-size: 48px;
+  font-weight: 800;
+  background: rgba(0, 0, 0, 0);
+  text-align: left;
+  color: #fff;
+}
+
+.hero2-text p {
+  font-size: 21px;
+  color: #fff;
+  padding: 8px 0 32px 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: left;
+  width: 50%;
+}
+
+.hero2-text .show {
+  text-decoration: none;
+  background: #fff;
+  padding: 16px 32px;
+  border-radius: 6px;
+  font-size: 17.6px;
   font-weight: bold;
-  line-height: 1.2;
+  letter-spacing: 2px;
+  color: #222;
+}
+
+.hero2-text .hide {
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -43,56 +76,7 @@
     height: 400px;
   }
 
-<<<<<<< HEAD
-.hero2-text h1 {
-    font-size: 48px;
-    font-weight: 800;
-    background: white;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-}
-
-.hero2-text p {
-    font-size: 21px;
-    color: #fff;
-    padding: 8px 0 32px 0; 
-    text-align: center;
-}
-
-.hero2-text .show {
-    text-decoration: none;
-    background: #fff;
-    padding: 16px 32px; 
-    border-radius: 6px;
-    font-size: 17.6px; 
-    font-weight: bold;
-    letter-spacing: 2px;
-    color: #222;
-}
-
-.hero2-text .hide {
-    display: none;
-}
-
-@media screen and (max-width: 555px) {
-    .hero2-text h1 {
-        padding: 10px 20px;
-        font-size: 40px; 
-        font-size: 17.6px;
-        padding: 0 0 32px;
-    }
-
-    .hero2-text .show {
-        padding: 96px 17.6px; 
-        border-radius: 6px;
-        font-size: 16px
-    }
-}
-*/
-=======
   .hero2-text {
     font-size: 28px;
   }
 }
-/* Tamam gibidir ama değişebilir */
->>>>>>> main

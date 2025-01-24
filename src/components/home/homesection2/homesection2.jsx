@@ -16,19 +16,19 @@ const homesection2 = () => {
         </div>
         <div className="card-grid">
           <div className="card">
-            <img src={deneme1}></img>
+            <img src={deneme1} alt="deneme1"></img>
             <div className="card-overlay">
               <p className="card-text">Lorem Ipsum</p>
             </div>
           </div>
           <div className="card-first">
-            <img src={deneme1}></img>
+            <img src={deneme1} alt="deneme2"></img>
             <div className="card-overlay">
               <p className="card-text">Lorem Ipsum</p>
             </div>
           </div>
           <div className="card">
-            <img src={deneme1}></img>
+            <img src={deneme1} alt="deneme3"></img>
             <div className="card-overlay">
               <p className="card-text">Lorem Ipsum</p>
             </div>
@@ -36,19 +36,19 @@ const homesection2 = () => {
         </div>
         <div className="card-grid-second">
           <div className="card">
-            <img src={deneme1}></img>
+            <img src={deneme1} alt="deneme4"></img>
             <div className="card-overlay">
               <p className="card-text">Lorem Ipsum</p>
             </div>
           </div>
           <div className="card-second">
-            <img src={deneme1}></img>
+            <img src={deneme1} alt="deneme5"></img>
             <div className="card-overlay">
               <p className="card-text">Lorem Ipsum</p>
             </div>
           </div>
           <div className="card">
-            <img src={deneme1}></img>
+            <img src={deneme1} alt="deneme6"></img>
             <div className="card-overlay">
               <p className="card-text">Lorem Ipsum</p>
             </div>

@@ -42,7 +42,7 @@ const Navbar = () => {
       className={`header ${scroll ? "scrolled" : ""}`}
       variants={{ visible: { y: 0 }, hidden: { y: "-100%" } }}
       animate={hidden ? "hidden" : "visible"}
-      transition={{ duration: 0.45, ease: "easeInOut" }}
+      transition={{ duration: 0.2, ease: "easeInOut" }}
     >
       <Link to="/" className="header-title">
         <img src={scroll ? logo2 : logo1} alt="logo" className="logo" />
@@ -50,7 +50,7 @@ const Navbar = () => {
 
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to="/Home" onClick={handleClick}>
+          <Link to="/OurServices" onClick={handleClick}>
             Services
           </Link>
         </li>
