@@ -8,6 +8,8 @@ import OurServices from "./pages/OurServices";
 import Insights from "./pages/Insights";
 import AdvertisingAndMedia from "./pages/AdvertisingAndMedia";
 import BusinessSolutions from "./pages/BusinessSolutions";
+import AboutUs from "./pages/AboutUs";
+import ComingSoon from "./pages/ComingSoon";
 import "./App.css";
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
             element={<AdvertisingAndMedia />}
           />
           <Route path="/BusinessSolutions" element={<BusinessSolutions />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/ComingSoon" element={<ComingSoon />} />
         </Routes>
       </Router>
     </>

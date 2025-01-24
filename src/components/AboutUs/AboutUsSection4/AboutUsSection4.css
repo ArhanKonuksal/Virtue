@@ -1,0 +1,123 @@
+/* General Styles for the Section */
+.join-our-journey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #fff; /* Light beige background */
+}
+
+.journey-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  gap: 20px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* Left Image Section */
+.journey-image {
+  flex: 1 1 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.journey-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* Right Content Section */
+.journey-content {
+  flex: 1 1 50%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.journey-title {
+  font-size: 50px;
+  color: #000;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.journey-description {
+  font-size: 18px;
+  color: #000;
+  line-height: 1.7;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* Buttons Section */
+.journey-buttons {
+  display: flex;
+  gap: 40px;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0 auto;
+}
+
+.journey-button {
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  color: #000;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.journey-button:hover {
+  background-color: #000;
+  color: #fff;
+  transform: translateY(-10px);
+}
+
+/* Outlined Button */
+.journey-button.outlined {
+  background-color: transparent;
+  border: 2px solid #333;
+}
+
+.journey-button.outlined:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .journey-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .journey-content {
+    text-align: center;
+  }
+
+  .journey-title {
+    font-size: 2rem;
+  }
+
+  .journey-description {
+    font-size: 1rem;
+  }
+
+  .journey-buttons {
+    flex-direction: column;
+  }
+
+  .journey-button {
+    width: 100%;
+  }
+}
