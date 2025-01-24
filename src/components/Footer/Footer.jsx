@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>Proudly powered by Virtue © 2024</p>
+        <p>Proudly powered by Virtue © 2025</p>
         <div className="footer-follow-us">
           <div className="footer-icons">
             <a

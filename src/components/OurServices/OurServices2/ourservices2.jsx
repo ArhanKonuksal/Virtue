@@ -4,6 +4,7 @@ import "./ourservices2.css";
 import Item1 from "../../../assets/BlueRectangle.png";
 import Item2 from "../../../assets/BlueRectangle.png";
 import Item3 from "../../../assets/BlueRectangle.png";
+import Logo from "../../../assets/Virtue-Logo.png";
 
 const ourservices2 = () => {
   const services = [
@@ -50,6 +51,7 @@ const ourservices2 = () => {
       {services.map((service, index) => (
         <div className="service-section" key={index}>
           <div className="service-info">
+            <img src={Logo} alt="" />
             <h2>{service.title}</h2>
             <p>{service.description}</p>
             <button className="explore-button">Explore Services</button>

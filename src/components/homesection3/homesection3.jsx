@@ -21,7 +21,7 @@ const HomeSection3 = () => {
           to streamline UX/UI development, leveraging preferred frameworks and
           existing tech stacks for seamless deployment.
         </p>
-        <div className="image-container">
+        <div className="image-container-home">
           <img src={VirtueLogo} alt="virtue-logo" />
 
           <div className="blue-rectangle-content">

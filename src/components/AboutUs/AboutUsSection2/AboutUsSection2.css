@@ -1,0 +1,86 @@
+/* General Styling */
+.about-virtue {
+  background-color: #f9f5f0; /* Light beige */
+  color: #000;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #000;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* Cards Container */
+.cards-container-aboutus {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* Individual Card */
+.card-aboutus {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 10;
+}
+
+.card-aboutus:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+/* Card Image */
+.card-image-aboutus img {
+  width: fit-content;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0.7;
+}
+
+/* Card Title */
+.card-title-aboutus {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px 0;
+  font-size: 22px;
+  border-radius: 0 0 15px 15px;
+  transition: background-color 0.3s ease;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.card-title-aboutus h3 {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card-aboutus {
+    width: 90%;
+    height: auto;
+  }
+
+  .card-title-aboutus {
+    font-size: 1rem;
+  }
+}
