@@ -48,7 +48,7 @@ const Navbar = () => {
         <img src={scroll ? logo2 : logo1} alt="logo" className="logo" />
       </Link>
 
-      <ul className={click ? "nav-menu active" : "nav-menu"}>
+      <ul className={click ? "nav-menu active" : "nav-menu"} id="page-links">
         <li>
           <Link to="/OurServices" onClick={handleClick}>
             Services
