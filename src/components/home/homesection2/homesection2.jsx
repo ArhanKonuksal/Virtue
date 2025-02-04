@@ -5,7 +5,7 @@ import deneme1 from "../../../assets/senses.png";
 const homesection2 = () => {
   return (
     <>
-      <div className="seciton2-container">
+      <div className="home-seciton2-container">
         <div className="texts">
           <h1>Strategic, Cost-Effective Solutions</h1>
           <h2>Virtue Innovates Business Growth</h2>
