@@ -59,7 +59,7 @@ const Navbar = () => {
             About Us
           </Link>
         </li>
-        <li>
+        {/*  <li>
           <Link to="/Insights" onClick={handleClick}>
             Insights
           </Link>
@@ -67,6 +67,11 @@ const Navbar = () => {
         <li>
           <Link to="/JoinUs" onClick={handleClick}>
             Join Us
+          </Link>
+        </li> */}
+        <li>
+          <Link to="/Pricing" onClick={handleClick}>
+            Pricing
           </Link>
         </li>
         <li>

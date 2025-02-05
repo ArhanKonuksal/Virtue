@@ -1,13 +1,13 @@
-.flex-container {
+.core-virtues-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /* Ensure items are aligned horizontally */
     flex-wrap: nowrap;
     justify-content: space-around;
-    align-items: normal;
+    align-items: center; /* Center items vertically */
     align-content: normal;
 }
 
-.flex-items:nth-child(1) {
+.core-virtues-item:nth-child(1) {
     display: block;
     flex-grow: 0;
     flex-shrink: 1;
@@ -16,7 +16,7 @@
     order: 0;
 }
 
-.flex-items:nth-child(2) {
+.core-virtues-item:nth-child(2) {
     display: block;
     flex-grow: 0;
     flex-shrink: 1;
@@ -25,11 +25,33 @@
     order: 0;
 }
 
-.flex-items:nth-child(3) {
+.core-virtues-item:nth-child(3) {
     display: block;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
     align-self: auto;
     order: 0;
+}
+
+.core-virtues-item h2 {
+    /* Add your styles here */
+}
+
+.core-virtues-item p {
+    font-size: 20px;
+    color: grey;
+}
+
+.core-heading {
+    text-align: center;
+}
+
+.core-heading h1 {
+    font-size: 86px;
+}
+
+.core-heading h6 {
+    font-size: 18px;
+    margin-top: -10px;
 }
