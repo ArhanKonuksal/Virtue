@@ -1,9 +1,11 @@
 /* General Styling */
 .about-virtue {
-  background-color: #f9f5f0; /* Light beige */
+  background-color: #fff; /* Light beige */
   color: #000;
   padding: 50px 20px;
   text-align: center;
+  background-image: url("../../../assets/aboutusdivider.png");
+  background-position: center;
 }
 
 .about-title {

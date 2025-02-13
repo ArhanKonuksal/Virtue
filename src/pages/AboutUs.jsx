@@ -5,7 +5,9 @@ import Navbar2 from "../components/Navbar2/Navbar2";
 import AboutUsImg from "../assets/About_Us_Photo.jpg";
 import AboutUsSection1 from "../components/AboutUs/AboutUsSection1/AboutUsSection1";
 import AboutUsSection2 from "../components/AboutUs/AboutUsSection2/AboutUsSection2";
+import AboutUsSection3 from "../components/AboutUs/AboutUsSection3/AboutUsSection3";
 import AboutUsSection4 from "../components/AboutUs/AboutUsSection4/AboutUsSection4";
+
 import Divider from "../components/Dividers/Dividers";
 import DividerImg from "../assets/firstDivider.png";
 import "../App.css";
@@ -22,6 +24,7 @@ const About = () => {
       />
       <AboutUsSection1 />
       <AboutUsSection2 />
+      <AboutUsSection3 />
       <AboutUsSection4 />
       <Footer />
     </>

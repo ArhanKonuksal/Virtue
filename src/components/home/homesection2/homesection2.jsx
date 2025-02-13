@@ -34,7 +34,7 @@ const homesection2 = () => {
             </div>
           </div>
         </div>
-        <div className="card-grid-second">
+        {/* <div className="card-grid-second">
           <div className="card">
             <img src={deneme1} alt="deneme4"></img>
             <div className="card-overlay">
@@ -53,7 +53,7 @@ const homesection2 = () => {
               <p className="card-text">Lorem Ipsum</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
