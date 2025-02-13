@@ -1,0 +1,106 @@
+/* General Section Styling */
+.vision-section {
+  padding: 40px 20px;
+  font-family: "Arial", sans-serif;
+  background-color: #fff; /* Light beige background */
+}
+
+.vision-header {
+  background-color: transparent;
+  margin-left: 5%;
+}
+.vision-header h1 {
+  font-size: 50px;
+  color: #000;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+
+.vision-header p {
+  font-size: 20px;
+  color: #000;
+  line-height: 1.6;
+  max-width: 800px;
+  margin-bottom: 30px;
+  background-color: transparent;
+}
+
+/* Accordion Styles */
+.accordion {
+  border-top: 2px solid #000;
+  background-color: transparent;
+  margin-left: 5%;
+}
+
+.accordion-item {
+  border-bottom: 2px solid #000;
+  background-color: transparent;
+}
+
+.accordion-button {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+}
+
+.accordion-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.accordion-title {
+  flex-grow: 1;
+  background-color: transparent;
+  font-size: 24px;
+}
+
+.accordion-icon {
+  font-size: 20px;
+  color: #000;
+  transition: transform 0.3s ease;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.accordion-content {
+  padding: 15px 20px;
+  font-size: 20px;
+  color: #000;
+  line-height: 1.6;
+  background-color: transparent;
+  animation: fadeIn 0.3s ease;
+}
+
+.accordion-content p {
+  background-color: transparent;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

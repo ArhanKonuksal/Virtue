@@ -21,11 +21,6 @@ const AboutUsSection2 = () => {
       image: require("../../../assets/BlueRectangle.png"), // Replace with your actual image path
       title: "Marketing",
     },
-    {
-      id: 4,
-      image: require("../../../assets/BlueRectangle.png"), // Replace with your actual image path
-      title: "Business Solutions",
-    },
   ];
 
   return (
@@ -47,8 +42,8 @@ const AboutUsSection2 = () => {
               </div>
             </div>
           ))}
-          <Divider dividerImg={DividerImg} />
         </div>
+        {/* <Divider dividerImg={DividerImg} /> */}
       </div>
     </>
   );
