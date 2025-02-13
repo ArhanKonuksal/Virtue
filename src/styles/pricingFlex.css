@@ -1,0 +1,74 @@
+.pricing-page {
+    background-image: url('../assets/PricingBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: none;
+    min-height: 100vh; /* Ensure it covers the full height */
+}
+
+.pricing-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    margin: 0 auto; /* Align container horizontally to the center */
+    gap: 10px; /* Increase padding between items */
+    padding-bottom: 10px; /* Add padding to the bottom */
+}
+
+.pricing-card {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 360px;
+    height: 420px;
+    border: 1px solid white; /* Ensure border color is white and make it thicker */
+    box-sizing: border-box; /* Include border in size */
+    border-radius: 25px; /* Make borders more round */
+    background: linear-gradient(to bottom, black, grey); /* Add gradient background */
+}
+
+.pricing-card h1,
+.pricing-card p,
+.pricing-card button {
+    background: none; /* Remove background */
+}
+
+.pricing-button {
+    padding: 10px 20px;
+    margin: 10px; /* Add margin */
+    border: 3px solid white; /* Change border color to white and make it thicker */
+    border-radius: 15px; /* Make button borders more round */
+    cursor: pointer;
+    font-size: 16px;
+    background: none; /* Ensure background is removed */
+}
+
+.pricing-button:hover {
+    background-color: #ffffff; /* Change background color on hover */
+    color: #000000; /* Change text color on hover */
+}
+
+.pricing-card:nth-child(1) .pricing-button,
+.pricing-card:nth-child(3) .pricing-button {
+    background-color: #000000; /* Green */
+    color: white;
+}
+
+.pricing-card:nth-child(2) .pricing-button,
+.pricing-card:nth-child(4) .pricing-button {
+    background-color: #ffffff; /* Blue */
+    color: black; /* Change text color to black */
+}
+
+.bg {
+    background-image: url('../assets/PricingBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: none;
+}
