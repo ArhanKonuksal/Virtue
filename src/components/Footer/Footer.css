@@ -1,53 +1,66 @@
 .footer {
+  box-sizing: border-box;
+  border-top: 1px solid #bba16c;
+  width: 100%;
   background-color: #000;
   color: #fff;
   padding: 40px 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
-  border-top: 1px solid #bba16c;
   padding-top: 50px;
 }
 
-.footer-left,
-.footer-middle,
-.footer-right {
-  flex-basis: 15%;
-  margin-bottom: 20px;
-  position: relative;
-  flex-grow: 1;
+.category-container{
+  border-right: 1px solid #303030;
 }
 
-.footer-middle h1::before {
-  content: "";
-  position: absolute;
-  top: 50px;
-  left: -40px;
-  right: -10px;
-  height: 1px;
-  background-color: #303030;
-  width: calc(100% + 70px);
-}
-.footer-right h1::before {
-  content: "";
-  position: absolute;
-  top: 50px;
-  left: -40px;
-  right: -10px;
-  height: 1px;
-  background-color: #303030;
-  width: calc(100% + 40px);
-}
-.footer-middle,
-.footer-right {
-  border-left: 1px solid #303030;
+#last-container{
+  border-right: none;
 }
 
+.footer-category-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: pre-wrap;
+
+
+  border-bottom: 1px solid #303030;
+
+  font-size: 24px;
+  text-align: center;
+
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 30px;
+}
+.footer-middle {
+  border-right: 1px solid #303030;
+}
+.footer-left{
+  flex-basis: 20%;
+  height: fit-content;
+
+}
+.footer-right{
+  box-sizing: border-box;
+  flex-basis: 70%;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-options{
+  padding: 0 20px;
+}
 .footer-logo {
-  max-width: 302px;
+  width: 100%;
   margin-bottom: 10px;
 }
 
@@ -57,17 +70,10 @@
   margin: 5px 0;
 }
 
-.footer-middle h1,
-.footer-right h1 {
-  font-size: 24px;
-  margin-bottom: 30px;
-  text-align: center;
-}
 
 .footer-middle ul,
 .footer-right ul {
   list-style: none;
-  padding: 0;
   text-align: center;
 }
 
@@ -76,13 +82,14 @@
   margin-bottom: 12px;
 }
 
-.footer-middle ul li a,
-.footer-right ul li a {
+.footer a{
   color: #fff;
   text-decoration: none;
   font-weight: 200;
   font-size: 16px;
 }
+
+
 
 .footer-follow-us {
   display: flex;
@@ -112,7 +119,6 @@
 
 .footer-bottom {
   text-align: center;
-  padding-bottom: 15px;
   padding-top: 10px;
   margin-top: 20px;
   display: flex;
@@ -120,10 +126,17 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
+.footer-bottom .bottom{
+  flex-basis: 55%;
+  display: flex;
+  justify-content: space-between;
+}
 .footer-text {
   text-align: right;
   display: flex;
   justify-content: flex-end;
+  font-size: 14px;
 }
 .footer-text a {
   margin: 0 5px;
@@ -133,3 +146,59 @@
 }
 
 /* değişecek illaki ama temel dursun */
+
+
+@media only screen and (max-width: 1028px ) {
+  .footer-container, .footer-right{
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-right{
+    padding-top: 50px;
+    gap:30px;
+  }
+
+  .category-container{
+    display: flex;
+    border-right: none;
+    height: fit-content;
+  
+  }
+
+  .footer-category-title{
+    margin: 0;
+  }
+  .footer-left {
+    max-width: 500px;
+    font-size: 20px;
+    flex-basis: 100%; /* Take full width on smaller screens */
+    text-align: center; /* Center text */
+    border-right: none; /* Remove borders */
+    border-left: none;
+  }
+
+
+  .footer-options{
+    display:none;
+  }
+
+  .footer-middle{
+    border-right: none;
+  }
+
+  .footer-bottom{
+    padding-top: 50px;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    height: 200px;
+    }
+  .footer-bottom .bottom{
+    flex-basis: 0;
+    width: 100%;
+  }
+
+  .footer-bottom .footer-text a{
+    font-size: 20px;
+    font-weight: 300;
+  }
+}

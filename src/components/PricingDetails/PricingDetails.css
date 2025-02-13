@@ -1,0 +1,155 @@
+.price-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.toggle-button-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.toggle-button-group button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.toggle-button-group button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.price-display {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.price-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.toggle-switch {
+    display: flex;
+    align-items: center;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin: 0 10px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #007bff;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+.pricing-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.pricing-details h1 {
+    font-size: 64px;
+    margin-top: 120px;
+}
+
+.pricing-details p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    color: grey;
+    max-width: 330px;
+}
+
+.pricing-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 65px;
+}
+
+.pricing-details-item {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 350px;
+    max-height: 325px;
+}
+
+.pricing-details-item h2 {
+    margin-bottom: 10px;
+}
+
+.pricing-details-item p {
+    margin-bottom: 10px;
+}
+
+.pricing-details-item ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.pricing-details-item ul li {
+    margin-bottom: 5px;
+}
+
+.pricing-details-item button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+}

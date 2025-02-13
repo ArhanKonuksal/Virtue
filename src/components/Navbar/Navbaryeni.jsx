@@ -59,7 +59,7 @@ const Navbar = () => {
             About Us
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/Insights" onClick={handleClick}>
             Insights
           </Link>
@@ -68,13 +68,18 @@ const Navbar = () => {
           <Link to="/JoinUs" onClick={handleClick}>
             Join Us
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/ContactUs" onClick={handleClick}>
             Contact
           </Link>
         </li>
-      </ul>
+        <li>
+          <Link to="/Pricing" onClick={handleClick}>
+            Pricing
+          </Link>
+        </li>
+        </ul>
 
       <div className="language-icon" onClick={toggleLanguageDropdown}>
         <img src={globeIcon} alt="language icon" />

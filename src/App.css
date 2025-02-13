@@ -6,6 +6,9 @@
   font-style: normal;
 }
 
+.container{
+  max-width: 1800px;
+}
 .about-us-hero2 h1 {
   color: #000 !important;
 }
