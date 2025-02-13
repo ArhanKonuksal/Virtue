@@ -160,12 +160,18 @@
 .language-dropdown .language-option img {
   margin-right: 10px;
 }
+
+@media (max-width: 1028px) {
+  #page-links{
+    display: none;
+  }
+
+}
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
     cursor: pointer;
   }
-
   .nav-menu {
     display: none;
     flex-direction: column;
