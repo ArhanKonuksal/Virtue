@@ -62,6 +62,7 @@
   flex-grow: 1;
   background-color: transparent;
   font-size: 24px;
+  color: #000;
 }
 
 .accordion-icon {

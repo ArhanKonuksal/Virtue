@@ -1,0 +1,172 @@
+/* General Section Styling */
+.pricing-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 5%;
+  background-color: black;
+  color: white;
+}
+
+/* Left Side - Text */
+.pricing-info {
+  max-width: 400px;
+  margin-left: 5%;
+}
+
+.pricing-info h2 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.pricing-info p {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.pricing-info a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Buttons */
+.pricing-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.primary-btn {
+  background-color: #176ae5;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 25px;
+  border: 2px solid white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-btn:hover {
+  transform: translateY(-10px);
+}
+.secondary-btn:hover {
+  background-color: white;
+  color: black;
+  transform: translateY(-10px);
+}
+
+/* Right Side - Pricing Cards */
+.pricing-cards {
+  display: flex;
+  gap: 20px;
+  margin-right: 5%;
+}
+
+.card-software {
+  width: 300px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.05)
+  );
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.mini {
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 106, 1) 0%,
+    rgba(0, 0, 37, 1) 100%
+  );
+}
+
+.basic {
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 64, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.card-software h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  background: transparent;
+}
+
+.card-software p {
+  font-size: 18px;
+  color: #ddd;
+  background: transparent;
+}
+
+.card-software ul {
+  font-size: 18px;
+  list-style: none;
+  padding: 0;
+  background: transparent;
+}
+
+.card-software ul li {
+  font-size: 16px;
+  margin: 5px 0;
+  color: white;
+  background: transparent;
+}
+
+/* See Pricing Button */
+.see-pricing {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 25px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.see-pricing:hover {
+  transform: translateY(-10px);
+}
+
+.blue {
+  background-color: #0044ff;
+  color: white;
+}
+
+.gray {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .pricing-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .pricing-cards {
+    flex-direction: column;
+  }
+
+  .pricing-info {
+    max-width: 100%;
+  }
+}
