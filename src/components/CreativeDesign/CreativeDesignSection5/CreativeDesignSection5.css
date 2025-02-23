@@ -1,0 +1,79 @@
+/* General Section Styling */
+.why-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 5%;
+  background-color: black;
+  color: white;
+}
+
+/* Left Side - Image */
+.why-us-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  margin-left: 10%;
+}
+
+.why-us-image img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+/* Right Side - Text */
+.why-us-text {
+  flex: 1;
+  max-width: 600px;
+  margin-right: 5%;
+}
+
+.subheading {
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.8;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.why-us-text h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.highlight-creativesection5 {
+  color: #0099ff; /* Bright blue highlight */
+}
+
+.description-creativesection5 {
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding-top: 5%;
+  border-top: 2px solid #fff;
+  width: 75%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .why-us {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .why-us-image {
+    margin-bottom: 30px;
+  }
+
+  .why-us-text h1 {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+}

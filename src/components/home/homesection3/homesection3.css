@@ -107,11 +107,6 @@
   background: rgba(0, 0, 0, 0);
 }
 
-.blue-rectangle-content a:hover {
-  color: #000000;
-  transform: translateY(-10px); /* Lift effect on hover */
-}
-
 /* Combined image styling */
 .image-container-home img[alt="Blue Rectangle"] {
   max-width: 500px; /* Adjust as needed */
@@ -128,9 +123,6 @@
   padding-bottom: 50px;
 }
 
-.readmore-button:hover {
-  color: #000000;
-}
 @media only screen and (max-width: 1028px) {
   .codeblock {
     display: none;

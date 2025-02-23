@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer/Footer";
-import Navbar from "../components/Navbar2/Navbar2";
+import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero2/Hero2";
 import HeroImage from "../assets/BlueRectangle.png";
 import OurServicesSection1 from "../components/OurServices/OurServices1/ourservices1";

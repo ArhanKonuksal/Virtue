@@ -23,13 +23,10 @@ const AdvertisingAndMediaSection2 = () => {
             crafted to streamline the future of intuitive user experience
             design.
           </p>
-          <a href="/readmore">
+          <a href="/readmore" className="cta">
             READ MORE
             <button className="readmore-button">
-              <FontAwesomeIcon
-                icon={faAngleRight}
-                style={{ background: "rgba(0, 0, 0, 0)", size: "2px" }}
-              />
+              <FontAwesomeIcon icon={faAngleRight} />
             </button>
           </a>
         </div>

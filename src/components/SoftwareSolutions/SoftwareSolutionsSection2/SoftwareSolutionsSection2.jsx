@@ -26,13 +26,10 @@ const SoftwareSolutionsSection2 = () => {
               a few clicks. Make Virtue your go-to for deploying user interfaces
               that engage and convert.
             </p>
-            <a href="/readmore">
+            <a className="cta" href="/readmore">
               See Our Offer
               <button className="readmore-button">
-                <FontAwesomeIcon
-                  icon={faAngleRight}
-                  style={{ background: "rgba(0, 0, 0, 0)", size: "2px" }}
-                />
+                <FontAwesomeIcon icon={faAngleRight} />
               </button>
             </a>
           </div>

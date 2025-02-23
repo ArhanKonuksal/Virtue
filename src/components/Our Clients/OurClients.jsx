@@ -1,15 +1,14 @@
-import React from 'react';
-import './OurClients.css';
-import Beyköy from "../../assets/beykoy_siyah_beyaz 11.png"; 
-import Halisköy from "../../assets/beykoy_siyah_beyaz 14.png"; 
-
+import React from "react";
+import "./OurClients.css";
+import Beyköy from "../../assets/beykoy_siyah_beyaz 11.png";
+import Halisköy from "../../assets/liberaldemokrasi.png";
 
 const OurClients = () => {
   return (
     <>
-      <div className='client-section'>
+      <div className="client-section">
         <h2>Our Clients</h2>
-        <div className='client-logos'>
+        <div className="client-logos">
           <img src={Beyköy} alt="Client 1" />
           <img src={Halisköy} alt="Client 2" />
           <img src={Beyköy} alt="Client 3" />

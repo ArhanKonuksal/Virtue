@@ -16,6 +16,7 @@ import Marketing from "./routes/PricingRoutes/Marketing";
 import CreativeDesing from "./routes/PricingRoutes/CreativeDesing";
 import BusinessSolutionsRoute from "./routes/PricingRoutes/BusinessSolutions";
 import SoftwareSolutions from "./pages/SoftwareSolutions";
+import CreativeDesign from "./pages/CreativeDesign";
 import "./App.css";
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           <Route path="/SoftwareSolutions" element={<SoftwareSolutions />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/ComingSoon" element={<ComingSoon />} />
+          <Route path="/CreativeDesign" element={<CreativeDesign />} />
           <Route path="/Pricing" element={<Pricing />} />
           <Route path="/Pricing/Software" element={<Software />} />
           <Route path="/Pricing/Marketing" element={<Marketing />} />

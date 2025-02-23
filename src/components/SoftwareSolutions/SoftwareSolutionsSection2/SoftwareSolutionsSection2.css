@@ -1,0 +1,12 @@
+.click-software {
+  background-color: transparent;
+}
+
+.click-software svg {
+  background-color: transparent;
+  transition: 0.3s ease;
+}
+
+.click-software svg:hover {
+  transform: translateX(5px);
+}
