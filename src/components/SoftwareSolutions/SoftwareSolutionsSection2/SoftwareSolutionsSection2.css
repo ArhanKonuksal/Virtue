@@ -2,11 +2,12 @@
   background-color: transparent;
 }
 
-.click-software svg {
+.cta {
   background-color: transparent;
   transition: 0.3s ease;
+  cursor: pointer;
 }
 
-.click-software svg:hover {
+.cta:hover svg {
   transform: translateX(5px);
 }

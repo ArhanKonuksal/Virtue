@@ -1,25 +1,28 @@
 import React from "react";
 import "./ourservices1.css";
+import icon1 from "../../../assets/servicesicon1.png";
+import icon2 from "../../../assets/serviceicon2.png";
+import icon3 from "../../../assets/serviceicon3.png";
 
 const ourservices1 = () => {
   const services = [
     {
-      icon: "🏠",
+      icon: icon1,
       title: "Get strong digital presence",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Build a powerful online identity with innovative web solutions, seamless user experiences, and engaging content. Elevate your brand's visibility across digital platforms.",
     },
     {
-      icon: "📈",
+      icon: icon2,
       title: "Attract quality leads and increase sales",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Drive targeted traffic and convert prospects into loyal customers with strategic marketing, data-driven campaigns, and optimized funnels designed for growth.",
     },
     {
-      icon: "🎯",
+      icon: icon3,
       title: "Reach your target audience",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Connect with the right people at the right time through tailored advertising, social media strategies, and impactful messaging that resonates with your audience.",
     },
   ];
 
@@ -30,8 +33,11 @@ const ourservices1 = () => {
       </h1>
       <div className="services-grid">
         {services.map((service, index) => (
-          <div className="service-card" key={index}>
-            <div className="service-icon">{service.icon}</div>
+          <div className="service-card-services" key={index}>
+            <div className="service-icon-wrapper">
+              <img className="service-icon" src={service.icon}></img>
+            </div>
+
             <h3 className="service-title">{service.title}</h3>
             <p className="service-description">{service.description}</p>
           </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero2/Hero2";
-import HeroImage from "../assets/BlueRectangle.png";
+import HeroImage from "../assets/OurServicesHero.png";
 import OurServicesSection1 from "../components/OurServices/OurServices1/ourservices1";
 import OurServicesSection2 from "../components/OurServices/OurServices2/ourservices2";
 import OurServicesSection3 from "../components/OurServices/OurServices3/ourservices3";

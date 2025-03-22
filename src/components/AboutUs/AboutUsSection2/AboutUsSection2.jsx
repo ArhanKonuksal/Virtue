@@ -10,16 +10,19 @@ const AboutUsSection2 = () => {
       id: 1,
       image: require("../../../assets/codeBlock.png"), // Replace with your actual image path
       title: "Software Solutions",
+      link: "/SoftwareSolutions",
     },
     {
       id: 2,
       image: require("../../../assets/BlueRectangle.png"), // Replace with your actual image path
       title: "Creative Design",
+      link: "/CreativeDesign",
     },
     {
       id: 3,
       image: require("../../../assets/BlueRectangle.png"), // Replace with your actual image path
       title: "Marketing",
+      link: "/MarketingAndAdvertisement",
     },
   ];
 
@@ -35,7 +38,9 @@ const AboutUsSection2 = () => {
           {cards.map((card) => (
             <div className="card-aboutus" key={card.id}>
               <div className="card-image-aboutus">
-                <img src={card.image} alt={card.title} />
+                <a href={card.link}>
+                  <img src={card.image} alt={card.title} />
+                </a>
               </div>
               <div className="card-title-aboutus">
                 <h3>{card.title}</h3>

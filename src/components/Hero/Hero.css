@@ -3,8 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-
+  margin-top: 10%;
   color: black;
   margin-left: 75px;
   margin-right: 75px;
@@ -88,7 +87,7 @@
 }
 
 .hero-body p {
-  color: rgba(182, 182, 182, 1);
+  color: #fff;
   font-size: clamp(10px, 10px + 0.5vw, 18px);
   text-align: center;
 }

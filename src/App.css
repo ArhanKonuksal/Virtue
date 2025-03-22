@@ -6,7 +6,11 @@
   font-style: normal;
 }
 
-.container{
+.a {
+  text-decoration: none !important;
+}
+
+.container {
   max-width: 1800px;
 }
 .about-us-hero2 h1 {

@@ -21,7 +21,7 @@ const CreativeDesignSection1 = () => {
           Across Digital and Print Platforms with a Unique, Professional, and
           Memorable Visual Identity.
         </p>
-        <a href="/" className="cta">
+        <a href="/ContactUs" className="cta">
           GET IN TOUCH <FontAwesomeIcon icon={faAngleRight} />
         </a>
       </div>

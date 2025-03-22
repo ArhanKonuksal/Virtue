@@ -1,6 +1,8 @@
 import React from "react";
 import "./homesection2.css";
-import deneme1 from "../../../assets/senses.png";
+import Beykoy from "../../../assets/beykoy 1 .png";
+import Liberal from "../../../assets/liberal 1.png";
+import Cyprio from "../../../assets/cyprio 1.png";
 
 const homesection2 = () => {
   return (
@@ -8,7 +10,7 @@ const homesection2 = () => {
       <div className="home-seciton2-container">
         <div className="texts">
           <h1>Strategic, Cost-Effective Solutions</h1>
-          <h2>Virtue Innovates Business Growth</h2>
+          <h2>Virtue Makes Challenges Into Opportunities</h2>
           <p>
             Virtue connects strategy, technology, and creativity to architect
             your business success.
@@ -16,22 +18,28 @@ const homesection2 = () => {
         </div>
         <div className="card-grid">
           <div className="card">
-            <img src={deneme1} alt="deneme1"></img>
-            <div className="card-overlay">
-              <p className="card-text">Lorem Ipsum</p>
-            </div>
+            <a href="/SoftwareSolutions">
+              <img src={Beykoy} alt="deneme1"></img>
+              <div className="card-overlay">
+                <p className="card-text">Software Solutions</p>
+              </div>
+            </a>
           </div>
           <div className="card-first">
-            <img src={deneme1} alt="deneme2"></img>
-            <div className="card-overlay">
-              <p className="card-text">Lorem Ipsum</p>
-            </div>
+            <a href="/AdvertisingAndMedia">
+              <img src={Liberal} alt="deneme1"></img>
+              <div className="card-overlay">
+                <p className="card-text">Marketing Solutions</p>
+              </div>
+            </a>
           </div>
           <div className="card">
-            <img src={deneme1} alt="deneme3"></img>
-            <div className="card-overlay">
-              <p className="card-text">Lorem Ipsum</p>
-            </div>
+            <a href="/CreativeDesign">
+              <img src={Cyprio} alt="deneme1"></img>
+              <div className="card-overlay">
+                <p className="card-text">Creative Design</p>
+              </div>
+            </a>
           </div>
         </div>
         {/* <div className="card-grid-second">

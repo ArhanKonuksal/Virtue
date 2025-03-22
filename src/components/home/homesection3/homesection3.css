@@ -86,7 +86,6 @@
   background: rgba(0, 0, 0, 0);
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
 }
 
 .blue-rectangle-content p {
@@ -96,13 +95,14 @@
   text-align: l ft;
   background: rgba(0, 0, 0, 0);
   width: 100%;
+  text-align: left;
 }
 
 .blue-rectangle-content a {
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
-  padding-bottom: 2px;
+
   transition: transform 0.3s ease;
   background: rgba(0, 0, 0, 0);
 }

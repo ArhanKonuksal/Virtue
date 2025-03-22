@@ -12,8 +12,12 @@ const SoftwareSolutionsSection6 = () => {
           Big team? Check the <a href="/">enterprise plan.</a>
         </p>
         <div className="pricing-buttons">
-          <button className="primary-btn">Start Now</button>
-          <button className="secondary-btn">Contact Us </button>
+          <a href="/">
+            <button className="primary-btn">Start Now</button>
+          </a>
+          <a href="/ContactUs">
+            <button className="secondary-btn">Contact Us </button>
+          </a>
         </div>
       </div>
 
@@ -27,7 +31,9 @@ const SoftwareSolutionsSection6 = () => {
             <li>✔ Lorem ipsum.</li>
             <li>✔ Lorem ipsum.</li>
           </ul>
-          <button className="see-pricing blue">See Pricing</button>
+          <a href="/Pricing">
+            <button className="see-pricing blue">See Pricing</button>
+          </a>
         </div>
 
         <div className="card-software basic">
@@ -38,7 +44,9 @@ const SoftwareSolutionsSection6 = () => {
             <li>✔ Lorem ipsum.</li>
             <li>✔ Lorem ipsum.</li>
           </ul>
-          <button className="see-pricing gray">See Pricing</button>
+          <a href="/Pricing">
+            <button className="see-pricing gray">See Pricing</button>
+          </a>
         </div>
       </div>
     </div>

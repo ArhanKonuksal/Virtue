@@ -5,7 +5,9 @@ const ourservices4 = () => {
   return (
     <div className="portfolio-banner">
       <h1>Discover Each Service From Our Portfolio</h1>
-      <button className="banner-button">Get in Touch</button>
+      <a href="/ContactUs">
+        <button className="banner-button">Get in Touch</button>
+      </a>
     </div>
   );
 };
