@@ -78,8 +78,6 @@
 }
 
 .learn-more:hover {
-  background: white;
-  color: black;
   transform: translateY(-10px);
 }
 

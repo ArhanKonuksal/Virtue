@@ -8,13 +8,13 @@ const AboutUsSection2 = () => {
   const cards = [
     {
       id: 1,
-      image: require("../../../assets/codeBlock.png"), // Replace with your actual image path
+      image: require("../../../assets/beykoy 1 .png"), // Replace with your actual image path
       title: "Software Solutions",
       link: "/SoftwareSolutions",
     },
     {
       id: 2,
-      image: require("../../../assets/BlueRectangle.png"), // Replace with your actual image path
+      image: require("../../../assets/billboardimage.png"), // Replace with your actual image path
       title: "Creative Design",
       link: "/CreativeDesign",
     },

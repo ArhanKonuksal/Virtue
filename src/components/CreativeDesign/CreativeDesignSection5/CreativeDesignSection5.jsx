@@ -25,8 +25,8 @@ const CreativeDesignSection5 = () => {
           We blend creativity with strategy to deliver designs that make an
           impact. Our team crafts visually stunning & user-focused solutions.
         </p>
-        <a href="/" className="cta">
-          READ MORE <FontAwesomeIcon icon={faAngleRight} />
+        <a href="/ContactUs" className="cta">
+          GET IN TOUCH <FontAwesomeIcon icon={faAngleRight} />
         </a>
       </div>
     </div>

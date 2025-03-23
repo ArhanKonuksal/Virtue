@@ -31,11 +31,15 @@ const ourservices1 = () => {
       <h1 className="services-title">
         Discover our services, tailored for your needs
       </h1>
-      <div className="services-grid">
+      <div className="ourservices-grid">
         {services.map((service, index) => (
           <div className="service-card-services" key={index}>
             <div className="service-icon-wrapper">
-              <img className="service-icon" src={service.icon}></img>
+              <img
+                className="service-icon"
+                src={service.icon}
+                alt="service-icons"
+              ></img>
             </div>
 
             <h3 className="service-title">{service.title}</h3>

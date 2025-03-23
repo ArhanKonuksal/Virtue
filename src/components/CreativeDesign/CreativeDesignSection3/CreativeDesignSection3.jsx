@@ -51,8 +51,9 @@ const CreativeDesignSection3 = () => {
           Branding, Graphic Design, UI/UX, and Website Development to Elevate
           Your Digital Presence.
         </p>
-        <a href="/" className="cta">
-          VIEW ALL <FontAwesomeIcon icon={faAngleRight} />
+        <a href="/Pricing" className="cta">
+          See Pricing
+          <FontAwesomeIcon icon={faAngleRight} />
         </a>
       </div>
 
@@ -60,7 +61,11 @@ const CreativeDesignSection3 = () => {
       <div className="service-cards">
         {services.map((service) => (
           <div key={service.id} className="service-card">
-            <img src={service.icon} className="service-icon" />
+            <img
+              src={service.icon}
+              className="service-icon"
+              alt="service-icons"
+            />
             <h3>{service.title}</h3>
             <p>{service.description}</p>
           </div>

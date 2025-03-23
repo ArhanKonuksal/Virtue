@@ -15,7 +15,7 @@
   text-align: center;
 }
 
-.services-grid {
+.ourservices-grid {
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -71,7 +71,7 @@
     width: 80%;
   }
 
-  .services-grid {
+  .ourservices-grid {
     flex-direction: column;
     gap: 10px;
   }

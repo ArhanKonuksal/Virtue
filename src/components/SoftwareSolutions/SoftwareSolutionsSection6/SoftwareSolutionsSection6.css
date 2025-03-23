@@ -15,8 +15,8 @@
 }
 
 .pricing-info h2 {
-  font-size: 48px;
-  margin-bottom: 15px;
+  font-size: 42px;
+  margin-bottom: 10%;
 }
 
 .pricing-info p {
@@ -62,8 +62,6 @@
   transform: translateY(-10px);
 }
 .secondary-btn:hover {
-  background-color: white;
-  color: black;
   transform: translateY(-10px);
 }
 

@@ -14,7 +14,7 @@ const AboutUsSection1 = () => {
             meaningful partnerships built on integrity and commitment, creating
             a foundation for shared success. ”
           </p>
-          <p className="author">
+          <p className="author-aboutus">
             Hussen Agha{" "}
             <p className="author-info">(He/Him), Chief Executive Officer</p>
           </p>

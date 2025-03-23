@@ -1,6 +1,8 @@
 import "./SoftwareSolutionsSection4.css";
 import React from "react";
 import phoneMockup from "../../../assets/phoneimage.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 const SoftwareSolutionsSection4 = () => {
   return (
@@ -16,14 +18,22 @@ const SoftwareSolutionsSection4 = () => {
             <span className="highlight-softwaresection4">for you.</span>
           </h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Our platform adapts to your needs, offering a smooth and efficient
+            experience with customizable features that fit your workflow
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Talk to us to make it happen—our team ensures a smooth, professional
+            process from concept to execution
           </p>
-          <button className="learn-more">LEARN MORE →</button>
+          <a href="/Pricing" className="cta">
+            <button className="learn-more">
+              See Pricing{" "}
+              <FontAwesomeIcon
+                icon={faAngleRight}
+                style={{ background: "rgba(0, 0, 0, 0)", size: "2px" }}
+              />
+            </button>
+          </a>
         </div>
       </div>
     </div>

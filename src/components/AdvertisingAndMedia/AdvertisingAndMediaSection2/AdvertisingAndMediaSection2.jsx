@@ -23,8 +23,8 @@ const AdvertisingAndMediaSection2 = () => {
             crafted to streamline the future of intuitive user experience
             design.
           </p>
-          <a href="/readmore" className="cta">
-            READ MORE
+          <a href="/Pricing" className="cta">
+            Start today
             <button className="readmore-button">
               <FontAwesomeIcon icon={faAngleRight} />
             </button>

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "./ourservices2.css";
 import Item1 from "../../../assets/servicessoftware1.png";
 import Item1H from "../../../assets/Item1H.png";
-import Item2 from "../../../assets/servicessoftware2.png";
+import Item2 from "../../../assets/Item2.png";
 import Item2H from "../../../assets/Item2H.png";
 import Item3 from "../../../assets/servicessoftware3.png";
 import Item3H from "../../../assets/Item3H.png";
@@ -20,8 +20,7 @@ import Item8H from "../../../assets/Item8H.png";
 import Item9 from "../../../assets/Item9.png";
 import Item9H from "../../../assets/Item9H.png";
 import Logo from "../../../assets/Logos/2/colored.svg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+
 const sections = [
   {
     id: 1,

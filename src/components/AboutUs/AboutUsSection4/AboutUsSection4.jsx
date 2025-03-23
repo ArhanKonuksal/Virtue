@@ -22,8 +22,8 @@ const AboutUsSection1 = () => {
               that make a difference. Together, we grow, learn, and achieve.
             </p>
             <div className="journey-buttons">
-              <a href="/JoinUs" className="journey-button">
-                Discover Opportunities
+              <a href="/OurServices" className="journey-button">
+                Discover Services
               </a>
               <a href="/JoinUs" className="journey-button outlined">
                 Join the Team

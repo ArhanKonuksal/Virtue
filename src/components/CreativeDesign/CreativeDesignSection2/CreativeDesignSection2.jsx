@@ -1,8 +1,6 @@
 import React from "react";
 import "./CreativeDesignSection2.css";
 import creativeImage from "../../../assets/creativeImage.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 const CreativeDesignSection2 = () => {
   return (
@@ -27,9 +25,6 @@ const CreativeDesignSection2 = () => {
           Inspire Audiences, and Bring Your Vision to Life with Creativity and
           Precision.
         </p>
-        <a href="/" className="cta">
-          READ MORE <FontAwesomeIcon icon={faAngleRight} />
-        </a>
       </div>
     </div>
   );

@@ -1,22 +1,27 @@
 import React from "react";
 import "./SoftwareSolutionsSection6.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 const SoftwareSolutionsSection6 = () => {
   return (
     <div className="pricing-section">
       {/* Left Side - Text & Buttons */}
       <div className="pricing-info">
-        <h2>A radical change at a fair price.</h2>
+        <h2>Big impact, Fair price.</h2>
         <p>
-          Give Slite a try. Save 16% on annual commitment. <br />
-          Big team? Check the <a href="/">enterprise plan.</a>
+          Save 16% with an annual plan, Need more? Our enterprise solution is
+          built for growing teams
         </p>
         <div className="pricing-buttons">
-          <a href="/">
-            <button className="primary-btn">Start Now</button>
-          </a>
-          <a href="/ContactUs">
-            <button className="secondary-btn">Contact Us </button>
+          <a href="/ContactUs" className="cta">
+            <button className="secondary-btn">
+              Contact Us{" "}
+              <FontAwesomeIcon
+                icon={faAngleRight}
+                style={{ background: "rgba(0, 0, 0, 0)", size: "2px" }}
+              />
+            </button>
           </a>
         </div>
       </div>
