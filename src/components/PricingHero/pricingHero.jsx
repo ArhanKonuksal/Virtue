@@ -5,9 +5,13 @@ import "./pricingHero.css";
 const pricingHero = () => {
   return (
     <>
-      <div className="pricing-hero" /* style={{ backgroundImage: `url(${PricingBackground})` }} */>
+      <div
+        className="pricing-hero" /* style={{ backgroundImage: `url(${PricingBackground})` }} */
+      >
         <div>
-          <button className="pricing-button">Bring your business to the best scale</button>
+          <button className="pricing-button-hero">
+            Bring your business to the best scale
+          </button>
         </div>
         <div className="p-headings">
           <h1>Discover Products</h1>
@@ -17,8 +21,8 @@ const pricingHero = () => {
         </div>
         <div className="p-hero-body">
           <p className="p-hero-paragraph">
-            Select from best plan, ensuring a perfect match. Need more or <br></br>less?
-            Customize your subscription for a seamless fit!{" "}
+            Select from best plan, ensuring a perfect match. Need more or{" "}
+            <br></br>less? Customize your subscription for a seamless fit!{" "}
           </p>
         </div>
       </div>

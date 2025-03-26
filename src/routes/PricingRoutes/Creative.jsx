@@ -4,16 +4,16 @@ import PricingSubpageSection1 from "../../components/Pricing/PricingSubpageSecti
 import CoreVirtuesValues from "../../components/CoreVirtuesValues/CoreVirtuesValues";
 import Footer from "../../components/Footer/Footer";
 const basicPlanFeatures = [
-  "Website & App Maintenance",
-  "Hosting & Server Management",
+  "Social Media Graphics",
+  "Hosting & Server Managementn",
   "Basic Feature Enhancements",
 ];
 
 const standardPlanFeatures = [
-  "Full Website & App Management",
-  "Custom API & Integration Support",
-  "Advanced Cybersecurity Solutions",
-  "Performance Monitoring",
+  "Comprehensive Branding Package",
+  "Marketing & Advertising Visuals",
+  "UI/UX Design Support",
+  "Motion Graphics & Short Video Editing",
 ];
 
 const enterprisePlanFeatures = [
@@ -21,21 +21,21 @@ const enterprisePlanFeatures = [
   "From AI-powered software to multi-platform branding & strategy, we take YOU there.",
   "Tell us your goals—our team will craft a strategic solution just for you.",
 ];
-const Software = () => {
+const CreativeDesing = () => {
   return (
     <>
       <Navbar />
       <PricingSubpageSection1
-        mainTitle="Pricing for Software"
+        mainTitle="Pricing for Creative Design"
         subtitleText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         basicPlanTitle="Basic"
-        basicPlanDescription="For businesses needing reliable maintenance & security for their digital platforms."
+        basicPlanDescription="For small businesses & startups needing consistent design support."
         basicPlanFeatures={basicPlanFeatures}
         standardPlanTitle="Standard"
-        standardPlanDescription="For growing companies requiring development, automation & maintenance."
+        standardPlanDescription=" For brands looking to establish a strong visual identity & engage their audience."
         standardPlanFeatures={standardPlanFeatures}
         enterprisePlanTitle="Enterprise"
-        enterprisePlanDescription="Looking for a fully customized software solution."
+        enterprisePlanDescription="Need high-end creative solutions tailored to your business?"
         enterprisePlanFeatures={enterprisePlanFeatures}
       />
       <CoreVirtuesValues />
@@ -44,4 +44,4 @@ const Software = () => {
   );
 };
 
-export default Software;
+export default CreativeDesing;

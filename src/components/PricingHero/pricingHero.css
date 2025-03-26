@@ -1,99 +1,110 @@
 .title {
-    position: relative;
-    font-family: "Cairo";
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    letter-spacing: 1px;
-    line-height: 1;
-    overflow: hidden; /* Ensure the video stays within bounds */
-    background-color: transparent;
-  }
-  
-  
-  .text-content {
-    position: relative;
-    z-index: 1; /* Ensure the text is above the video */
-    color: white; /* Text color */
-    background-color: transparent;
-  }
-  
-  .title h1 {
-    text-transform: uppercase;
-    font-size: 150px;
-    margin: 20px 0;
-    color: white; /* Change to a visible color */
-    background-color: transparent;
-  }
-  
-  .title h2 {
-    font-size: 50px;
-    background-color: transparent;
-  }
-  
-  .white-mode {
-    text-decoration: none;
-    padding: 7px 10px;
-    background-color: transparent;
-    border-radius: 3px;
-    color: #fff;
-    transition: 0.2s ease-in-out;
-    position: absolute;
-    left: 15px;
-    bottom: 15px;
-    font-family: "Montserrat";
-  }
-  
-  .white-mode:hover {
-    background-color: #ffffff;
-    color: rgb(32, 65, 65);
-    background-color: transparent;
-  }
-  
-  .pricing-hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: black;
-    margin: 10%;
-    background-color: transparent;
-  }
-  
-  .pricing-hero h1 {
-    font-size: 70px;
-    padding-left: 40px;
-    padding-right: 40px;
-    text-align: center;
-    margin: 0px;
-    background-color: rgba(00, 00, 00, 00);
-  }
-  
-  .p-hero-body p {
-    color: rgba(182, 182, 182, 1);
-    font-size: 18px;
-    text-align: center;
-    background-color: transparent;
-  }
-  
-  .pricing-button {
-    background-color: transparent;
-    border: 1px solid #e0e0e0;
-    border-radius: 30px;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-    color: #ffffff;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  position: relative;
+  font-family: "Cairo";
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  letter-spacing: 1px;
+  line-height: 1;
+  overflow: hidden; /* Ensure the video stays within bounds */
+  background-color: transparent;
 }
 
-.pricing-button:hover {
-    background-color: #f0f0f0;
-    border-color: #b0b0b0;
-    color: #333333;
+.text-content {
+  position: relative;
+  z-index: 1; /* Ensure the text is above the video */
+  color: white; /* Text color */
+  background-color: transparent;
+}
+
+.title h1 {
+  text-transform: uppercase;
+  font-size: 150px;
+  margin: 20px 0;
+  color: white; /* Change to a visible color */
+  background-color: transparent;
+}
+
+.title h2 {
+  font-size: 50px;
+  background-color: transparent;
+}
+
+.white-mode {
+  text-decoration: none;
+  padding: 7px 10px;
+  background-color: transparent;
+  border-radius: 3px;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+.white-mode:hover {
+  background-color: #ffffff;
+  color: rgb(32, 65, 65);
+  background-color: transparent;
+}
+
+.pricing-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  padding-top: 10%;
+  background-color: transparent;
+  margin: 0 auto 5%;
+}
+
+.p-headings {
+  background-color: transparent;
+}
+
+.pricing-hero h1 {
+  font-size: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  margin: 0px;
+  background-color: transparent;
+}
+
+.p-hero-paragraph {
+  background-color: transparent;
+}
+
+.p-hero-body {
+  background-color: transparent;
+}
+.p-hero-body p {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.pricing-button-hero {
+  background-color: transparent;
+  border: 1px solid #e0e0e0;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  text-align: center;
+  cursor: default;
+  transition: all 0.3s ease;
+  opacity: 0.6;
+}
+
+.pricing-button-hero:hover {
+  background-color: #f0f0f0;
+  border-color: #b0b0b0;
+  color: #333333;
 }

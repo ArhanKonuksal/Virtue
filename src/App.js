@@ -13,7 +13,7 @@ import AboutUs from "./pages/AboutUs";
 import ComingSoon from "./pages/ComingSoon";
 import Software from "./routes/PricingRoutes/Software";
 import Marketing from "./routes/PricingRoutes/Marketing";
-import CreativeDesing from "./routes/PricingRoutes/CreativeDesing";
+import Creative from "./routes/PricingRoutes/Creative";
 import BusinessSolutionsRoute from "./routes/PricingRoutes/BusinessSolutions";
 import SoftwareSolutions from "./pages/SoftwareSolutions";
 import CreativeDesign from "./pages/CreativeDesign";
@@ -43,7 +43,7 @@ function App() {
           <Route path="/Pricing" element={<Pricing />} />
           <Route path="/Pricing/Software" element={<Software />} />
           <Route path="/Pricing/Marketing" element={<Marketing />} />
-          <Route path="/Pricing/CreativeDesing" element={<CreativeDesing />} />
+          <Route path="/Pricing/Creative" element={<Creative />} />
           <Route
             path="/Pricing/BusinessSolutions"
             element={<BusinessSolutionsRoute />}

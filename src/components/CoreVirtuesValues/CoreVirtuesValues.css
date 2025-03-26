@@ -1,57 +1,61 @@
 .core-virtues-container {
-    display: flex;
-    flex-direction: row; /* Ensure items are aligned horizontally */
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center; /* Center items vertically */
-    align-content: normal;
+  display: flex;
+  flex-direction: row; /* Ensure items are aligned horizontally */
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center; /* Center items vertically */
+  align-content: normal;
+  margin: 0 auto;
+  max-width: 90%;
 }
 
 .core-virtues-item:nth-child(1) {
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
 }
 
 .core-virtues-item:nth-child(2) {
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
 }
 
 .core-virtues-item:nth-child(3) {
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
 }
 
 .core-virtues-item h2 {
-    /* Add your styles here */
+  font-size: 36px;
+  margin: 5% auto;
 }
 
 .core-virtues-item p {
-    font-size: 20px;
-    color: grey;
+  font-size: 20px;
+  color: #fff;
+  width: 80%;
 }
 
 .core-heading {
-    text-align: center;
+  text-align: center;
 }
 
 .core-heading h1 {
-    font-size: 86px;
+  font-size: 86px;
 }
 
 .core-heading h6 {
-    font-size: 18px;
-    margin-top: -10px;
+  font-size: 18px;
+  margin: 0 auto 5%;
 }
