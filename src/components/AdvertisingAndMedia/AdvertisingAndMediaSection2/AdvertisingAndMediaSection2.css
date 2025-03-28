@@ -28,7 +28,7 @@
 .text-container h2 {
   font-size: 50px;
   margin-bottom: 20px;
-  color: #000;
+  color: #fff;
   background: rgba(0, 0, 0, 0);
 }
 
@@ -36,7 +36,7 @@
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 15px;
-  color: #000;
+  color: #fff;
   background: rgba(0, 0, 0, 0);
 }
 .text-container a {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./CreativeDesignSection1.css";
-import designImage from "../../../assets/Social Media Post Mockup 1.png";
+import designImage from "../../../assets/CyprioJob-Mockup.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 

@@ -15,8 +15,7 @@ const AboutUsSection1 = () => {
             a foundation for shared success. ”
           </p>
           <p className="author-aboutus">
-            Hussen Agha{" "}
-            <p className="author-info">(He/Him), Chief Executive Officer</p>
+            Hussen Agha <p className="author-info">Chief Executive Officer</p>
           </p>
         </div>
         <div className="image-container-aboutus">

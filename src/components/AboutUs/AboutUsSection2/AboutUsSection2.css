@@ -1,8 +1,8 @@
 /* General Styling */
 .about-virtue {
-  background-color: #fff; /* Light beige */
+  background-color: #f9f5f0; /* Light beige background */
   color: #000;
-  padding: 50px 20px;
+  padding: 80px 20px;
   text-align: center;
   background-image: url("../../../assets/aboutusdivider.png");
   background-position: center;
@@ -10,80 +10,127 @@
 
 .about-title {
   font-size: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   color: #000;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
 }
 
 /* Cards Container */
 .cards-container-aboutus {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0);
+  align-items: stretch;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: transparent;
 }
 
 /* Individual Card */
 .card-aboutus {
   position: relative;
   width: 300px;
-  height: 400px;
   overflow: hidden;
+  height: 400px;
   border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   background-color: #fff;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background-color: rgba(0, 0, 0, 0);
-  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  border: 2px solid #7e7e7e;
 }
 
 .card-aboutus:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
 
 /* Card Image */
+.card-image-aboutus {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background-color: transparent;
+}
 
 .card-image-aboutus img {
-  height: 100%;
-  object-fit: cover;
-  border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0);
-  opacity: 0.7;
+  height: 100px;
+  width: auto;
+  margin-bottom: 20px;
+  object-fit: contain;
+  background-color: transparent;
+}
+
+.card-image-aboutus a {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
 }
 
 /* Card Title */
 .card-title-aboutus {
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  right: 0;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  padding: 10px 0;
-  font-size: 22px;
-  border-radius: 0 0 15px 15px;
-  transition: background-color 0.3s ease;
-  background-color: rgba(0, 0, 0, 0);
+  margin-top: 10px;
+  background-color: transparent;
 }
 
 .card-title-aboutus h3 {
-  background-color: rgba(0, 0, 0, 0);
-  font-size: 32px;
+  font-size: 42px;
+  color: #000;
+  margin-bottom: 5px;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.card-title-aboutus p {
+  font-size: 16px;
+  margin-top: 0;
+  color: #7e7e7e;
+  margin-bottom: 25px;
+  background-color: transparent;
+}
+
+/* View Services Button */
+.view-services-btn {
+  background: linear-gradient(
+    0deg,
+    rgb(150, 150, 150) 0%,
+    rgb(225, 225, 225) 100%
+  );
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: auto;
+  transition: all 0.3s ease;
+  width: 80%;
+  position: absolute;
+  bottom: 50px;
+  left: 40px;
+}
+
+.view-services-btn:hover {
+  background-color: #d9d9d9;
+  transform: translateY(-5px);
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .card-aboutus {
-    width: 90%;
-    height: auto;
+  .cards-container-aboutus {
+    gap: 20px;
   }
 
-  .card-title-aboutus {
-    font-size: 1rem;
+  .card-aboutus {
+    width: 90%;
+    max-width: 300px;
   }
 }

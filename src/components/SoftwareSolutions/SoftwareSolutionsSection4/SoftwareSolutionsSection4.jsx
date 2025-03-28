@@ -1,6 +1,6 @@
 import "./SoftwareSolutionsSection4.css";
 import React from "react";
-import phoneMockup from "../../../assets/phoneimage.png";
+import phoneMockup from "../../../assets/Beykoy_Phone_Mockup.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
