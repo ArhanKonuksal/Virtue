@@ -16,9 +16,9 @@ import Creative from "./routes/PricingRoutes/Creative";
 import BusinessSolutionsRoute from "./routes/PricingRoutes/BusinessSolutions";
 import SoftwareSolutions from "./pages/SoftwareSolutions";
 import CreativeDesign from "./pages/CreativeDesign";
-import Terms from "./routes/Terms";
-import Legal from "./routes/Legal";
-import Privacy from "./routes/Privacy";
+import Terms from "./routes/terms";
+import Legal from "./routes/legal";
+import Privacy from "./routes/privacy";
 import "./App.css";
 
 function App() {
@@ -40,7 +40,6 @@ function App() {
           <Route path="/BusinessSolutions" element={<BusinessSolutions />} />
           <Route path="/SoftwareSolutions" element={<SoftwareSolutions />} />
           <Route path="/AboutUs" element={<AboutUs />} />
-          <Route path="/ComingSoon" element={<ComingSoon />} />
           <Route path="/CreativeDesign" element={<CreativeDesign />} />
           <Route path="/Pricing" element={<Pricing />} />
           <Route path="/Pricing/Software" element={<Software />} />
