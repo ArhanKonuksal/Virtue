@@ -1,0 +1,61 @@
+.softwaresolutionssection3 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+
+  background-color: transparent;
+}
+
+.software-header {
+  margin: 0 auto;
+  text-align: center;
+  background-color: transparent;
+}
+
+.software-header h1 {
+  font-size: 50px;
+  margin-bottom: 5px;
+  background-color: transparent;
+}
+
+.software-header h2 {
+  color: #1ed5ff;
+  background-color: transparent;
+}
+
+.swiper {
+  width: 80%;
+  height: 50%;
+  margin: 20px auto;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: transparent;
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  background-color: transparent;
+}

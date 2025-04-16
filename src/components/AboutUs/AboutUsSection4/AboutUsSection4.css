@@ -29,8 +29,7 @@
 .journey-image img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
   background-color: rgba(0, 0, 0, 0);
 }
 
@@ -62,7 +61,7 @@
   display: flex;
   gap: 40px;
   background-color: rgba(0, 0, 0, 0);
-  margin: 0 auto;
+  margin: 0 0 50%;
 }
 
 .journey-button {
@@ -80,7 +79,7 @@
 .journey-button:hover {
   background-color: #000;
   color: #fff;
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
 
 /* Outlined Button */

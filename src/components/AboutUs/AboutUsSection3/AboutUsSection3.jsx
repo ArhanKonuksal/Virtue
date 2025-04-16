@@ -29,7 +29,7 @@ const AboutUsSection3 = () => {
     },
     {
       id: 4,
-      title: "Long-Term Partnerships:",
+      title: "Long-Term Partnerships",
       content:
         "We focus on building relationships that grow over time, ensuring sustainable success for our clients.",
     },

@@ -14,8 +14,7 @@
 .header2.scrolled {
   background-color: rgba(255, 255, 255, 0.6); /* Dark background on scroll */
   justify-content: space-between;
-  padding: 0 20px;
-  height: 100px !important;
+  padding: 20px;
 }
 
 .logo {
@@ -23,7 +22,7 @@
   width: auto;
   height: 100px;
   transition: transform 0.3s ease;
-  margin: 10% auto 2%;
+  margin: 10% auto;
 }
 
 .header-title {
@@ -162,6 +161,11 @@
 
 .language-dropdown2 .language-option img {
   margin-right: 10px;
+}
+@media (max-width: 1028px) {
+  #page-links {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .menu-icon {

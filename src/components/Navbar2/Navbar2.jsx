@@ -48,9 +48,9 @@ const Navbar2 = () => {
         <img src={scroll ? logo2 : logo1} alt="logo" className="logo" />
       </Link>
 
-      <ul className={click ? "nav-menu active" : "nav-menu2"}>
+      <ul className={click ? "nav-menu active" : "nav-menu2"} id="page-links">
         <li>
-          <Link to="/Home" onClick={handleClick}>
+          <Link to="/OurServices" onClick={handleClick}>
             Services
           </Link>
         </li>
@@ -60,15 +60,11 @@ const Navbar2 = () => {
           </Link>
         </li>
         <li>
-          <Link to="/Insights" onClick={handleClick}>
-            Insights
+          <Link to="/Pricing" onClick={handleClick}>
+            Pricing
           </Link>
         </li>
-        <li>
-          <Link to="/JoinUs" onClick={handleClick}>
-            Join Us
-          </Link>
-        </li>
+
         <li>
           <Link to="/ContactUs" onClick={handleClick}>
             Contact

@@ -1,0 +1,58 @@
+/* General Section Styling */
+.latest-projects {
+  background-color: black;
+  text-align: center;
+  padding: 50px 5%;
+  color: white;
+}
+
+/* Heading */
+.latest-projects h1 {
+  font-size: 60px;
+
+  margin-bottom: 10px;
+}
+
+/* Description Text */
+.description-creativesection4 {
+  font-size: 18px;
+  color: #1ed5ff; /* Blue highlight */
+  margin-bottom: 30px;
+}
+
+/* Logos Container */
+.logos-creative {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* Individual Logos */
+.logo-creative {
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.logo-creative:hover {
+  opacity: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .logos-creative {
+    gap: 20px;
+  }
+
+  .logo-creative {
+    max-width: 80px;
+  }
+
+  .center-logo-creative {
+    max-width: 100px;
+  }
+}

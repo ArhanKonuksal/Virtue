@@ -28,29 +28,24 @@
 .text-container h2 {
   font-size: 50px;
   margin-bottom: 20px;
-  color: #000;
+  color: #fff;
   background: rgba(0, 0, 0, 0);
 }
 
 .text-container p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   margin-bottom: 15px;
-  color: #000;
+  color: #fff;
   background: rgba(0, 0, 0, 0);
 }
 .text-container a {
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
-  padding-bottom: 2px;
+
   transition: transform 0.3s ease;
   background: rgba(0, 0, 0, 0);
-}
-
-.text-container a:hover {
-  color: #000000;
-  transform: translateY(-10px);
 }
 
 .image-container-advertisement {
@@ -58,6 +53,9 @@
   background: rgba(0, 0, 0, 0);
 }
 
+.image-container-advertisement img {
+  background-color: transparent;
+}
 .phone-image {
   height: 600px;
   position: relative;
@@ -108,12 +106,12 @@
   width: 100%;
 }
 .readmore-button {
-  background: rgba(0, 0, 0, 0);
+  background-color: transparent;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-.readmore-button:hover {
-  color: #000000;
+.readmore-button svg {
+  background-color: transparent;
 }

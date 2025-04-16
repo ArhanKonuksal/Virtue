@@ -1,7 +1,7 @@
 import React from "react";
 import "./AdvertisingAndMediaSection2.css";
-import phoneImage from "../../../assets/phoneimage.png"; // Replace with the actual phone image path
-import monitorImage from "../../../assets/senses.png"; // Replace with the actual monitor image path
+import phoneImage from "../../../assets/Beykoy_Phone_Mockup.png"; // Replace with the actual phone image path
+import monitorImage from "../../../assets/virtue billboard png 2.png"; // Replace with the actual monitor image path
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBook, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
@@ -23,13 +23,10 @@ const AdvertisingAndMediaSection2 = () => {
             crafted to streamline the future of intuitive user experience
             design.
           </p>
-          <a href="/readmore">
-            READ MORE
+          <a href="/Pricing" className="cta">
+            Start today
             <button className="readmore-button">
-              <FontAwesomeIcon
-                icon={faAngleRight}
-                style={{ background: "rgba(0, 0, 0, 0)", size: "2px" }}
-              />
+              <FontAwesomeIcon icon={faAngleRight} />
             </button>
           </a>
         </div>

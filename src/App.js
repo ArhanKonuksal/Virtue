@@ -12,8 +12,10 @@ import BusinessSolutions from "./pages/BusinessSolutions";
 import AboutUs from "./pages/AboutUs";
 import Software from "./routes/PricingRoutes/Software";
 import Marketing from "./routes/PricingRoutes/Marketing";
-import CreativeDesing from "./routes/PricingRoutes/CreativeDesing";
+import Creative from "./routes/PricingRoutes/Creative";
 import BusinessSolutionsRoute from "./routes/PricingRoutes/BusinessSolutions";
+import SoftwareSolutions from "./pages/SoftwareSolutions";
+import CreativeDesign from "./pages/CreativeDesign";
 import Terms from "./routes/Terms";
 import Legal from "./routes/Legal";
 import Privacy from "./routes/Privacy";
@@ -31,14 +33,20 @@ function App() {
           <Route path="/JoinUs" element={<JoinUs />} />
           <Route path="/OurServices" element={<OurServices />} />
           <Route path="/Insights" element={<Insights />} />
-          <Route path="/AdvertisingAndMedia" element={<AdvertisingAndMedia />}/>
+          <Route
+            path="/AdvertisingAndMedia"
+            element={<AdvertisingAndMedia />}
+          />
           <Route path="/BusinessSolutions" element={<BusinessSolutions />} />
+          <Route path="/SoftwareSolutions" element={<SoftwareSolutions />} />
           <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/ComingSoon" element={<ComingSoon />} />
+          <Route path="/CreativeDesign" element={<CreativeDesign />} />
           <Route path="/Pricing" element={<Pricing />} />
           <Route path="/Pricing/Software" element={<Software />} />
           <Route path="/Pricing/Marketing" element={<Marketing />} />
-          <Route path="/Pricing/CreativeDesing" element={<CreativeDesing />} />
-          <Route path="/Pricing/BusinessSolutions" element={<BusinessSolutionsRoute />} />
+          <Route path="/Pricing/Creative" element={<Creative />} />
+          <Route path="/Pricing/BusinessSolutions" element={<BusinessSolutionsRoute />}/>
           <Route path="/terms" element={<Terms />} />
           <Route path="/privacy" element={<Legal />} />
           <Route path="/legal" element={<Privacy />} />

@@ -1,0 +1,78 @@
+.core-virtues-container2 {
+  display: flex;
+  flex-direction: row; /* Ensure items are aligned horizontally */
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center; /* Center items vertically */
+  align-content: normal;
+  background-color: transparent;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.core-virtues-item2:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  background-color: transparent;
+}
+
+.core-virtues-item2:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  background-color: transparent;
+}
+
+.core-virtues-item2:nth-child(3) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  background-color: transparent;
+}
+
+.core-virtues-item2 h2 {
+  /* Add your styles here */
+  background-color: transparent;
+  color: #000;
+}
+
+.core-virtues-item2 p {
+  font-size: 20px;
+  color: #000;
+  background-color: transparent;
+  width: 80%;
+}
+
+.core-virtues-item2 img {
+  background-color: transparent;
+}
+.core-heading2 {
+  text-align: center;
+  background-color: transparent;
+}
+
+.core-heading2 h1 {
+  font-size: 86px;
+  background-color: transparent;
+  color: #000;
+  text-align: left;
+  margin: 5% 5% 0;
+}
+
+.core-heading2 h6 {
+  font-size: 18px;
+  margin: 0 8% 5%;
+  text-align: left;
+  background-color: transparent;
+  color: #000;
+}

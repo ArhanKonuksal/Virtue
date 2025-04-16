@@ -9,47 +9,58 @@ const homesection1 = () => {
       <div className="home-section1-container">
         <div className="container">
           <div className="heading">
-            <h1>Empowering business innovation,</h1>
-            <h1>Driving dynamic strategies for your success.</h1>
+            <h1>
+              Empowering business From strategy to execution, we craft solutions
+              that turn your vision into success.
+            </h1>
           </div>
           <div className="list-item">
-            <li>Discover & Plan</li>
-            <li>Design & Development</li>
-            <li>Support & Expand</li>
+            <a href="/OurServices">
+              <li>Services</li>
+            </a>
+            <a href="/AboutUs">
+              <li>About Us</li>
+            </a>
+            <a href="/ContactUs">
+              <li>Contact Us</li>
+            </a>
           </div>
           <div className="Boxes">
             <div className="box1">
               <div className="text">
-                <h1>LOREM IPSUM</h1>
+                <h1>Powering Your Vision</h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Unleash the full potential of your business with our
+                  cutting-edge solutions. From strategy to execution, we’ve got
+                  you covered
                 </p>
               </div>
 
               <button className="button-box1">
-                Learn More About Our Services
+                <a href="/OurServices">Learn More About Our Services</a>
               </button>
             </div>
             <div className="box2">
-              <h1>LOREM IPSUM</h1>
+              <h1>Who We Are, What We Do</h1>
 
               <button className="button-box2">
-                <FontAwesomeIcon
-                  icon={faAngleRight}
-                  style={{ borderRadius: "50%", size: "2px" }}
-                />
+                <a href="/AboutUs">
+                  <FontAwesomeIcon
+                    icon={faAngleRight}
+                    style={{ borderRadius: "50%", size: "2px" }}
+                  />
+                </a>
               </button>
             </div>
             <div className="box2">
-              <h1>LOREM IPSUM</h1>
+              <h1>Let’s Build Together</h1>
               <button className="button-box2">
-                <FontAwesomeIcon
-                  icon={faAngleRight}
-                  style={{ borderRadius: "50%", size: "2px" }}
-                />
+                <a href="/OurServices">
+                  <FontAwesomeIcon
+                    icon={faAngleRight}
+                    style={{ borderRadius: "50%", size: "2px" }}
+                  />
+                </a>
               </button>
             </div>
           </div>

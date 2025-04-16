@@ -9,6 +9,7 @@
   height: 750px;
   background: black;
   flex-direction: row; /* Align children horizontally */
+  margin: 0 5%;
 }
 
 .headings-h3 {
@@ -18,22 +19,28 @@
 .headings-h3 h1 {
   font-size: 96px;
   display: block;
+  margin: 0 auto;
 }
 
 .headings-h3 h1.grey {
-  padding-left: 120px;
-  color: #B5B5B5;
+  margin-left: 10%;
+  color: #b5b5b5;
   display: inline; /* Ensure h1 elements stay on the same line */
 }
 
 .headings-h3 p {
   font-size: 20px;
-  color: #BBA16C;
-  padding-left: 20px;
+  color: #bba16c;
+  margin-left: 10%;
+  width: 60%;
 }
 
 .hero3-image {
-  width: 40%;
-  padding-right: 500px;
+  width: auto;
+  height: 500px;
 }
 
+.hero3-image img {
+  width: auto;
+  height: 500px;
+}

@@ -1,0 +1,72 @@
+.connect-experts {
+  background-color: transparent;
+  padding: 60px 20px;
+  width: 100%;
+}
+
+.connect-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+.connect-title {
+  font-family: serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 16px;
+  background-color: transparent;
+}
+
+.connect-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+  margin-bottom: 24px;
+  max-width: 800px;
+  background-color: transparent;
+}
+
+.connect-button {
+  background-color: #00008b; /* Dark blue color */
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 50px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.connect-button:hover {
+  background-color: #0000ca;
+  transform: translateY(-5px);
+}
+
+.connect-button a {
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .connect-experts {
+    padding: 40px 16px;
+  }
+
+  .connect-title {
+    font-size: 28px;
+  }
+
+  .connect-description {
+    font-size: 14px;
+  }
+
+  .connect-button {
+    padding: 10px 28px;
+    font-size: 14px;
+  }
+}
