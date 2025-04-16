@@ -1,5 +1,4 @@
 import "./AboutUsSection2.css";
-import AboutUsDivider from "../AboutUsDivider/AboutUsDivider";
 
 const AboutUsSection2 = () => {
   const cards = [
