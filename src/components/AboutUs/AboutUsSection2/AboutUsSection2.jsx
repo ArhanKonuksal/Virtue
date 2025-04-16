@@ -29,7 +29,7 @@ const AboutUsSection2 = () => {
   return (
     <>
       <div>
-        <AboutUsDivider heading="Our Work" />
+        {/*<AboutUsDivider heading="Our Work" /> */}
       </div>
 
       <div className="about-virtue">

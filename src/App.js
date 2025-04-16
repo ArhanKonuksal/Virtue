@@ -10,13 +10,15 @@ import Pricing from "./pages/Pricing";
 import AdvertisingAndMedia from "./pages/AdvertisingAndMedia";
 import BusinessSolutions from "./pages/BusinessSolutions";
 import AboutUs from "./pages/AboutUs";
-import ComingSoon from "./pages/ComingSoon";
 import Software from "./routes/PricingRoutes/Software";
 import Marketing from "./routes/PricingRoutes/Marketing";
 import Creative from "./routes/PricingRoutes/Creative";
 import BusinessSolutionsRoute from "./routes/PricingRoutes/BusinessSolutions";
 import SoftwareSolutions from "./pages/SoftwareSolutions";
 import CreativeDesign from "./pages/CreativeDesign";
+import Terms from "./routes/Terms";
+import Legal from "./routes/Legal";
+import Privacy from "./routes/Privacy";
 import "./App.css";
 
 function App() {
@@ -44,10 +46,10 @@ function App() {
           <Route path="/Pricing/Software" element={<Software />} />
           <Route path="/Pricing/Marketing" element={<Marketing />} />
           <Route path="/Pricing/Creative" element={<Creative />} />
-          <Route
-            path="/Pricing/BusinessSolutions"
-            element={<BusinessSolutionsRoute />}
-          />
+          <Route path="/Pricing/BusinessSolutions" element={<BusinessSolutionsRoute />}/>
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/privacy" element={<Legal />} />
+          <Route path="/legal" element={<Privacy />} />
         </Routes>
       </Router>
     </>

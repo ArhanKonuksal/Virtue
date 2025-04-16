@@ -99,7 +99,7 @@ const Footer = () => {
             <div className="footer-follow-us">
               <div className="footer-icons">
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/virtueltd/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -113,7 +113,7 @@ const Footer = () => {
                   <FaXTwitter />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/company/the-virtue-co/posts/?feedView=all"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -141,5 +141,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-/* değişecek illaki ama temel dursun */

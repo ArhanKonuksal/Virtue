@@ -1,9 +1,11 @@
 import React from 'react'
+import "../styles/subpages.css"
 
-const privacy = () => {
+const Privacy = () => {
   return (
-    <div>privacy</div>
+    <>
+    </>
   )
 }
 
-export default privacy
+export default Privacy

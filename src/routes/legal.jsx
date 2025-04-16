@@ -1,9 +1,12 @@
 import React from 'react'
+import "../styles/subpages.css"
 
-const legal = () => {
+const Legal = () => {
   return (
-    <div>legal</div>
+    <>
+
+    </>
   )
 }
 
-export default legal
+export default Legal

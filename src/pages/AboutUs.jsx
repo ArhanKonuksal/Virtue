@@ -7,9 +7,6 @@ import AboutUsSection1 from "../components/AboutUs/AboutUsSection1/AboutUsSectio
 import AboutUsSection2 from "../components/AboutUs/AboutUsSection2/AboutUsSection2";
 import AboutUsSection3 from "../components/AboutUs/AboutUsSection3/AboutUsSection3";
 import AboutUsSection4 from "../components/AboutUs/AboutUsSection4/AboutUsSection4";
-
-import Divider from "../components/Dividers/Dividers";
-import DividerImg from "../assets/firstDivider.png";
 import "../App.css";
 
 const About = () => {
