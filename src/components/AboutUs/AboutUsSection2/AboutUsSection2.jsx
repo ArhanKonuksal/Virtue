@@ -1,8 +1,5 @@
 import React from "react";
 import "./AboutUsSection2.css";
-import AboutUsDivider from "../AboutUsDivider/AboutUsDivider";
-import Divider from "../../Dividers/Dividers";
-import DividerImg from "../../../assets/firstDivider.png";
 
 const AboutUsSection2 = () => {
   const cards = [
@@ -26,7 +23,7 @@ const AboutUsSection2 = () => {
   return (
     <>
       <div>
-        <AboutUsDivider heading="Our Work" />
+        {/*<AboutUsDivider heading="Our Work" /> */}
       </div>
 
       <div className="about-virtue">

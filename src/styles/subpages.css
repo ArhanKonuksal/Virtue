@@ -1,0 +1,25 @@
+.subpage {
+    margin-left: 3%;
+}
+
+.subpage h1 {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 150px;
+}
+
+.subpage p {
+    color: white;
+    text-align: left;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.subpage h2 {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
