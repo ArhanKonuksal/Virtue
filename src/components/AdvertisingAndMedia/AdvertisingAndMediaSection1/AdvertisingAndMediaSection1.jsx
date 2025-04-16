@@ -1,6 +1,6 @@
 import React from "react";
 import "./AdvertisingAndMediaSection1.css";
-import laptopImage from "../../../assets/BlueRectangle.png"; // Replace with the correct path to your laptop image
+import laptopImage from "../../../assets/LDH_Laptop_Mockup.png"; // Replace with the correct path to your laptop image
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBook, faPersonHiking } from "@fortawesome/free-solid-svg-icons";
 import { faMessage, faLightbulb } from "@fortawesome/free-regular-svg-icons";
@@ -9,22 +9,16 @@ const AdvertisingAndMediaSection1 = () => {
   return (
     <div className="marketing-plan">
       <section className="hero-section">
-        <div className="text-content">
-          <h1>There is a plan to market your success</h1>
-          <p>
-            Virtue offers advanced software development frameworks that
-            streamline the creation and deployment of applications. Our
-            solutions include robust libraries that enhance coding efficiency
-            and reduce time-to-market. We specialize in optimizing software
-            architecture, ensuring scalable and maintainable codebases. Our
-            systems are designed to support a broad range of software
-            engineering tasks, enabling developers to produce high-quality
-            software that meets the dynamic needs of businesses.
-          </p>
-          <button>Press Button</button>
+        <div className="text-content-adv">
+          <h1>
+            There is a plan to market{" "}
+            <span className="highlight-advertising">your success</span>
+          </h1>
         </div>
-        <img src={laptopImage} alt="Laptop" className="laptop-image" />
       </section>
+      <div className="image-container-advertising">
+        <img src={laptopImage} alt="Laptop" className="laptop-image" />
+      </div>
 
       <section className="brands">
         <div className="brand">

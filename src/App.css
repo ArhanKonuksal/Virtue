@@ -6,7 +6,11 @@
   font-style: normal;
 }
 
-.container{
+.a {
+  text-decoration: none !important;
+}
+
+.container {
   max-width: 1800px;
 }
 .about-us-hero2 h1 {
@@ -18,7 +22,7 @@
 .button1 {
   background-color: rgba(0, 0, 139, 1);
   color: rgba(255, 255, 255, 1);
-  border-radius: 12px;
+  border: 0px solid transparent;
   border-radius: 20px;
   width: 231px;
   height: 55px;
@@ -31,7 +35,7 @@
 .button2 {
   background-color: rgba(255, 255, 255, 1);
   color: rgba(0, 0, 0, 1);
-  border-radius: 12px;
+  border: 0px solid transparent;
   border-radius: 20px;
   width: 231px;
   height: 55px;

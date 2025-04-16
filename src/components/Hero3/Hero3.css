@@ -1,0 +1,46 @@
+.hero3 {
+  background: black;
+}
+
+.hero3-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+  background: black;
+  flex-direction: row; /* Align children horizontally */
+  margin: 0 5%;
+}
+
+.headings-h3 {
+  width: 60%;
+}
+
+.headings-h3 h1 {
+  font-size: 96px;
+  display: block;
+  margin: 0 auto;
+}
+
+.headings-h3 h1.grey {
+  margin-left: 10%;
+  color: #b5b5b5;
+  display: inline; /* Ensure h1 elements stay on the same line */
+}
+
+.headings-h3 p {
+  font-size: 20px;
+  color: #bba16c;
+  margin-left: 10%;
+  width: 60%;
+}
+
+.hero3-image {
+  width: auto;
+  height: 500px;
+}
+
+.hero3-image img {
+  width: auto;
+  height: 500px;
+}

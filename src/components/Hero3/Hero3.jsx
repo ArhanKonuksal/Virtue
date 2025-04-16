@@ -1,10 +1,22 @@
 import React from 'react';
 import "./Hero3.css";
-import Logo from "../../assets/Virtue Logo Concept 1 White 1.png"
 
-const Hero3 = () => {
+const Hero3 = (props) => {
   return (
-    {/* Kesin değil şuan */}
+    <>
+    <div className="hero3">
+        <div className="hero3-container">
+          <div className="headings-h3">
+            <h1>{props.heading}</h1>
+            <h1 className="grey">{props.heading2}</h1>
+            <p>{props.paragraph}</p>
+          </div>
+          <div className="hero3-image">
+            <img src={props.imageSrc} alt="Hero3-bg" />
+          </div>
+        </div>
+      </div>
+  </>
   )
 }
 

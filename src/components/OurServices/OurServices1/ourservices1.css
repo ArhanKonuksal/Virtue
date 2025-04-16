@@ -15,14 +15,13 @@
   text-align: center;
 }
 
-.services-grid {
+.ourservices-grid {
   display: flex;
   justify-content: space-between;
   gap: 20px;
 }
 
-.service-card {
-  background-color: #10152c;
+.service-card-services {
   border-radius: 8px;
   padding: 20px;
   flex: 1;
@@ -31,25 +30,108 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
+.service-icon-wrapper {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 50px;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 .service-icon {
   font-size: 3rem;
-  margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0);
 }
 
 .service-title {
-  font-size: 32px;
-  width: 75%;
+  font-size: 36px;
+  width: 100%;
   margin: 10% auto;
   background-color: rgba(0, 0, 0, 0);
 }
 
 .service-description {
-  font-size: 14px;
+  font-size: 16px;
   width: 75%;
   margin: 0 auto;
-  text-align: left;
-  color: #bbb;
+  text-align: center;
+  color: #fff;
   line-height: 1.5;
   background-color: rgba(0, 0, 0, 0);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .services-title {
+    font-size: 36px;
+    width: 80%;
+  }
+
+  .ourservices-grid {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .service-card-services {
+    margin: 10px 0;
+  }
+
+  .service-icon-wrapper {
+    padding: 30px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .service-icon {
+    font-size: 2.5rem;
+  }
+
+  .service-title {
+    font-size: 28px;
+  }
+
+  .service-description {
+    font-size: 14px;
+    width: 90%;
+  }
+
+  .service-icon img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-title {
+    font-size: 28px;
+    width: 90%;
+  }
+
+  .service-icon-wrapper {
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .service-icon {
+    font-size: 2rem;
+  }
+
+  .service-title {
+    font-size: 24px;
+  }
+
+  .service-description {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .service-icon img {
+    width: 60%;
+    height: auto;
+  }
 }

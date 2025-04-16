@@ -39,6 +39,10 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.portfolio-banner a {
+  background-color: transparent;
+}
+
 .banner-button:hover {
   cursor: pointer;
   transform: translateY(-10px);

@@ -1,6 +1,5 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react"; // {/* useRef */} vardı ama bir işe yaramazdı
 import "./AboutUsSection3.css";
-import AboutUsDivider from "../AboutUsDivider/AboutUsDivider";
 
 const AboutUsSection3 = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -30,7 +29,7 @@ const AboutUsSection3 = () => {
     },
     {
       id: 4,
-      title: "Long-Term Partnerships:",
+      title: "Long-Term Partnerships",
       content:
         "We focus on building relationships that grow over time, ensuring sustainable success for our clients.",
     },
@@ -45,7 +44,7 @@ const AboutUsSection3 = () => {
   return (
     <>
       <div>
-        <AboutUsDivider heading="Our Values" />
+        {/*<AboutUsDivider heading="Our Values" /> */}
       </div>
 
       <div className="vision-section">

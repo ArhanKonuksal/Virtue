@@ -1,0 +1,88 @@
+/* General Section Styling */
+.creative-ideas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2% 5%;
+
+  color: white;
+}
+
+/* Left Side - Image */
+.creative-image {
+  flex: 1;
+  display: flex;
+  justify-content: left;
+  margin-left: 10%;
+  max-width: 400px;
+}
+
+.creative-image img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+/* Right Side - Text */
+.creative-text {
+  flex: 1;
+  max-width: 600px;
+  margin-right: 5%;
+}
+
+.subheading {
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.8;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.creative-text h1 {
+  font-size: 50px;
+
+  margin-bottom: 15px;
+}
+
+.highlight {
+  color: #0099ff; /* Bright blue highlight */
+  display: inline;
+}
+
+.small-text {
+  font-size: 18px;
+  border-top: 2px solid #fff;
+  color: #fff;
+  margin-bottom: 10px;
+  padding-top: 5%;
+  width: 75%;
+}
+
+.description-creativesection2 {
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.6;
+  margin: 5% 0;
+  width: 75%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .creative-ideas {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .creative-image {
+    margin-bottom: 30px;
+  }
+
+  .creative-text h1 {
+    font-size: 2rem;
+  }
+
+  .description-creativesection2 {
+    font-size: 0.9rem;
+  }
+}

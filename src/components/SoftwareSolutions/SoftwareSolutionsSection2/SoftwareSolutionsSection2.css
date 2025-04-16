@@ -1,0 +1,116 @@
+/* Main container */
+.digital-services-container {
+  min-height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Header section */
+.header-section {
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.main-heading {
+  font-size: 50px;
+
+  margin-bottom: 0.75rem;
+}
+
+.subtitle {
+  background: linear-gradient(to right, #009dff, #1ed5ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+}
+
+/* Services grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Service card */
+.service-card-softwaresolutions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #333;
+  border-radius: 25px;
+  background-color: #000;
+  height: auto;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.service-card-softwaresolutions:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: 100%;
+  height: 150px;
+  margin: 5% auto;
+}
+
+.service-icon-software {
+  width: 125px;
+  height: 125px;
+  object-fit: contain;
+  background-color: transparent;
+}
+
+.title-container {
+  background-color: transparent;
+  width: 100%;
+  padding: 5% 0;
+  border-top: 2px solid #333;
+  border-radius: 50px 50px 0 0;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 26px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.card-description {
+  font-size: 18px;
+  text-align: justify;
+  padding: 20px 30px;
+  margin: 0 auto;
+  color: #000;
+  background-color: #ffffff;
+  height: 100%;
+}
+
+/* Media queries for responsive design */
+@media (min-width: 768px) {
+  .main-heading {
+    font-size: 50px;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

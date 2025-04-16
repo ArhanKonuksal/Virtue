@@ -1,0 +1,80 @@
+/* General Styling */
+.smart-software {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(30deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 63) 100%);
+  color: white;
+  padding: 10% 5%;
+}
+
+/* Heading */
+.smart-software h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+  background-color: transparent;
+}
+
+.content-software {
+  background-color: transparent;
+}
+.content-software p {
+  background-color: transparent;
+}
+.smart-software .highlight {
+  color: #0099ff; /* Bright blue for 'SOFTWARE' */
+  display: inline;
+  background-color: transparent;
+}
+
+/* Subtitle */
+.smart-software p {
+  font-size: 20px;
+  max-width: 600px;
+  margin-bottom: 40px;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.illustration {
+  background-color: transparent;
+}
+
+/* Illustration */
+.illustration img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin-top: 30px;
+  animation: float 3s ease-in-out infinite;
+  background-color: transparent;
+}
+
+/* Floating Animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .smart-software h1 {
+    font-size: 2.5rem;
+  }
+
+  .smart-software p {
+    font-size: 1rem;
+  }
+
+  .illustration img {
+    max-width: 100%;
+  }
+}

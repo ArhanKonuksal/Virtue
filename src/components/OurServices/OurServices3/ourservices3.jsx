@@ -8,7 +8,9 @@ const ourservices3 = () => {
       <h1>
         Let us engineer for your <br></br>success, efficiency & growth
       </h1>
-      <button className="contact-button">Contact Us</button>
+      <a href="/ContactUs">
+        <button className="contact-button">Contact Us</button>
+      </a>
     </div>
   );
 };

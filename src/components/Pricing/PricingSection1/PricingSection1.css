@@ -1,0 +1,138 @@
+.bg {
+  margin: 5% auto;
+}
+
+.pricing-page {
+  background-image: url("../../../assets/PricingBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: none;
+  min-height: 100vh; /* Ensure it covers the full height */
+}
+
+.pricing-section2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+  margin: 0 auto; /* Align container horizontally to the center */
+  gap: 10px; /* Increase padding between items */
+  padding-bottom: 10px; /* Add padding to the bottom */
+}
+.pricing-card {
+  background-color: #111;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 100%;
+  height: 250px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.pricing-card-bottom {
+  background-color: #111;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 100%;
+  height: 250px;
+  max-width: 875px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  background: linear-gradient(130deg, #000, #00008b);
+  border: 1px solid #666666;
+}
+
+.pricing-card-image {
+  background-color: transparent;
+}
+
+.pricing-card-image img {
+  background-color: transparent;
+}
+.pricing-card:hover,
+.pricing-card-bottom:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.pricing-card h1,
+.pricing-card-bottom h1 {
+  font-size: 42px;
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
+  background-color: transparent;
+}
+
+.pricing-card p,
+.pricing-card-bottom p {
+  margin: 0.25rem 0;
+  font-size: 18px;
+  color: #fff;
+  background-color: transparent;
+}
+
+.pricing-card a,
+.pricing-card-bottom a {
+  background-color: transparent;
+  position: absolute;
+  bottom: 5%;
+}
+
+.pricing-button {
+  margin-top: 1.5rem;
+  padding: 15px 100px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+.pricing-card:nth-child(even),
+.pricing-card:nth-child(odd) {
+  background: linear-gradient(130deg, #000, #00008b);
+  border: 1px solid #666666;
+}
+.pricing-card:nth-child(odd) .pricing-button,
+.pricing-card:nth-child(even) .pricing-button,
+.pricing-card-bottom .pricing-button {
+  background: linear-gradient(180deg, #fff, #666);
+  border-radius: 20px;
+  color: #000;
+  border: 1px solid #333;
+}
+
+.pricing-card:nth-child(even) .pricing-button {
+  background-color: #fff;
+  color: #111;
+}
+
+.pricing-button:hover {
+  opacity: 0.9;
+  transform: translateY(-5px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .pricing-section2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-card {
+    max-width: 100%;
+  }
+}

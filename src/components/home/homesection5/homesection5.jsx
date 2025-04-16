@@ -12,14 +12,20 @@ const homesection5 = () => {
               <div className="service-content">
                 <div className="icon">&#8599;</div>
                 <div className="text">
-                  <h2>For Software Developers</h2>
+                  <h2>Full-Stack Development</h2>
                   <p className="service-card-text1">
-                    Develop, deploy, and scale with Virtue’s Software
-                    Development Team. Leverage the expertise of our dedicated
-                    engineers and robust technology stack to build innovative
-                    solutions that drive your business forward.
+                    At Virtue, we provide reliable and scalable web and software
+                    development solutions tailored to your needs. From building
+                    responsive front-end interfaces with HTML, CSS, JavaScript,
+                    and React to managing back-end functionality, we deliver
+                    practical and effective results. While our expertise spans a
+                    wide range of technologies, we focus on creating solutions
+                    that are user-friendly, efficient, and designed to grow with
+                    your business.
                   </p>
-                  <button className="service-button">Start Developing</button>
+                  <button className="service-button">
+                    <a href="/SoftwareSolutions">Explore Service</a>
+                  </button>
                 </div>
               </div>
               <div className="service-image">
@@ -33,14 +39,16 @@ const homesection5 = () => {
               <div className="service-content">
                 <div className="icon">&#8599;</div>
                 <div className="text">
-                  <h2>For Marketers</h2>
+                  <h2>Design & User Experience</h2>
                   <p className="service-card-text2">
-                    Connect, create, and captivate with Virtue’s Marketing Team.
-                    Utilize our comprehensive marketing strategies and creative
-                    resources to enhance your brand’s visibility and engage your
-                    target audience effectively.
+                    At Virtue, we specialize in creating impactful designs using
+                    industry-leading tools; From graphic design to UI/UX
+                    prototyping, our team ensures your project is visually
+                    compelling and user-focused.
                   </p>
-                  <button className="service-button">Start Marketing</button>
+                  <button className="service-button">
+                    <a href="/CreativeDesign">Explore Service</a>
+                  </button>
                 </div>
               </div>
             </div>
@@ -49,14 +57,16 @@ const homesection5 = () => {
               <div className="service-content">
                 <div className="icon">&#8599;</div>
                 <div className="text">
-                  <h2>For Consultants</h2>
+                  <h2>Marketing Solutions</h2>
                   <p className="service-card-text2">
-                    Transform, innovate, and lead with Virtue’s Consulting
-                    Services. Partner with our expert consultants to navigate
-                    complex business challenges and develop strategies that
-                    deliver sustainable success.
+                    Every business faces challenges, we deliver the solutions.
+                    With in-depth analysis and tailored strategies, we address
+                    your unique needs. Our approach is actionable, and designed
+                    to drive measurable results
                   </p>
-                  <button className="service-button">Start Consulting</button>
+                  <button className="service-button">
+                    <a href="/AdvertisingAndMedia">Explore Service</a>
+                  </button>
                 </div>
               </div>
             </div>
